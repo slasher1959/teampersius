@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<title></title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<link rel="stylesheet" href="../styles/normalize.css" media="all">  <!-- reset css -->
+<link rel="stylesheet" href="../styles/mainstyles.css" media="screen"> <!-- main styles -->
+<link rel="stylesheet" href="../styles/printstyles.css" media="print"> <!-- print styles -->
+</head>
+
+<body>
+this is text before any tags, including before the div tag.  There is a &lt;br&gt;tag between this text and the div tag.<br />
+<div>this is text right after the div tag.  There is one div tag in this test text...immediately followed by a break tag<br />
+
+<h1>heading 1</h1>
+<h2>heading 2</h2>
+<h3>heading 3</h3>
+<h4>heading 4</h4>
+<h5>heading 5</h5>
+<h6>heading 6</h6>
+<p>this is a paragraph</p>
+<ul>
+<li>this is an unordered list item</li>
+<li>this is an unordered list item2</li>
+<li>this is an unordered list item3</li>
+</ul>
+<ol>
+<li>this is an ordered list item</li>
+<li>this is an ordered list item2</li>
+<li>this is an ordered list item3</li>
+</ol>
+<p>below is an anchor with a button:</p>
+<a href="http://www.tsn.ca">TSN Site</a>
+<button type="button">Submit</button>
+<p>below is an image:</p>
+<img src="../../images/doctorevil.jpg" alt="Doctor Evil" />
+<p>below is a form:</p>
+<form action="http://www.thenet.ca" method="get">
+	First name: <input type="text" name="fname"><br>
+	Last name: <input type="text" name="lname"><br>
+	<input type="submit" value="Submit">
+</form> 
+<p>below is a definition list:</p>
+<dl>
+	<dt>DL Term 1</dt>
+	<dt>DL Term 2</dt>
+</dl>
+<p>below is a blockquote:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>
+<p>This is normal text and <b>this is bold text</b></p>
+<p>Fieldset in a form is below</p>
+<form>
+	<fieldset>
+	<legend>Personalia:</legend>
+	Name: <input type="text"><br>
+	Email: <input type="text"><br>
+	Date of birth: <input type="text">
+	</fieldset>
+</form> 
+<p>A drop down list is below:</p>
+<select>
+	<option value="volvo">Volvo</option>
+	<option value="saab">Saab</option>
+	<option value="opel">Opel</option>
+	<option value="audi">Audi</option>
+</select> 
+<p>A text area is below:</p>
+<textarea rows="4" cols="80">
+lorem ipsum type of text.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+</textarea>
+<p>A Table is below:</p>
+<table>
+<tr>
+<th>Month</th>
+<th>Savings</th>
+</tr>
+<tr>
+<td>January</td>
+<td>$1,000</td>
+</tr>
+</table>
+<p>An abbreviation is below:</p>
+<p>The <abbr title="World Health Organization">WHO</abbr>was founded in 1948.</p>
+<h3>A table wiht a thead, tfoot, and tbody is below:</h3>
+<table>
+<thead>
+	<tr>
+		<th>Month</th>
+		<th>Savings</th>
+	</tr>
+</thead>
+<tfoot>
+	<tr>
+		<td>Sum</td>
+		<td>$180</td>
+	</tr>
+</tfoot>
+<tbody>
+	<tr>
+		<td>January</td>
+		<td>$100</td>
+	</tr>
+	<tr>
+		<td>February</td>
+		<td>$80</td>
+	</tr>
+</tbody>
+</table> 
+<p>Misc tags formatted:  <br />
+<u>underline</u> <b>big text</b> <del>Deleted Text</del> <ins>Inserted Text</ins>
+<em>emphasized text</em> 
+</p>
+<p>What a context Menu will look like...use Firefox to test</p>
+<div contextmenu="mymenu">
+<p>Right-click inside this box to see the context menu!
+
+<menu type="context" id="mymenu">
+  <menuitem label="Refresh" onclick="window.location.reload();" icon="ico_reload.png"></menuitem>
+  <menu label="Share on...">
+    <menuitem label="Twitter" icon="ico_twitter.png" onclick="window.open('//twitter.com/intent/tweet?text=' + window.location.href);"></menuitem>
+    <menuitem label="Facebook" icon="ico_facebook.png" onclick="window.open('//facebook.com/sharer/sharer.php?u=' + window.location.href);"></menuitem>
+  </menu>
+  <menuitem label="Email This Page" onclick="window.location='mailto:?body='+window.location.href;"></menuitem>
+</menu>
+</div>
+<h1>Below are HTML5 Element Examples</h1>
+<p>figure:</p>
+<figure>
+<img src="../../images/doctorevil.jpg" alt="Doctor evil">
+<figcaption>This is the figcaption part</figcaption>
+</figure>
+<p>basic elements:</p>
+<footer>This is text in the footer tag</footer>
+<article>this is text in an article tag</article>
+<header>this is text in a header tag</header>
+<aside>this is text in an aside tag</aside>
+<bdi>this is text in a different direction from other text using the &lt;bdi&gt; tag</bdi>
+<details>this is text in the details tag</details>
+<main>this is text in the main tag</main>
+<p><mark>this is marked or highlighted text using the &lt;mark&gt; tag</mark></p>
+<nav>this is text in a nav tag</nav>
+<section>this is text in a section tag</section>
+
+this is text right before the div closing tag. 
+
+</div> <!-- /div -->
+
+</body>
+
+</html>
