@@ -1,1 +1,13 @@
-﻿
+header section .three.columns img {
+  max-width: 70%;
+}
+header section .nine.columns span {
+  font-style: italic;
+  font-size: 0.75em;
+  display: block;
+}
+header section .eleven.columns input {
+  min-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
