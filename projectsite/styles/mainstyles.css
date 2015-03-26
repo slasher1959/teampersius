@@ -1,13 +1,69 @@
-header section .three.columns img {
+#background {
+  height: 135px;
+  position: absolute;
+  width: 100%;
+  background-image: url('../images/background_grey.png');
+}
+header section .two.columns img {
   max-width: 70%;
 }
-header section .nine.columns span {
+header section .ten.columns span {
   font-style: italic;
-  font-size: 0.75em;
-  display: block;
+  font-size: 0.65em;
+/*  display: block;  */
 }
-header section .eleven.columns input {
-  min-width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+header section, #searchbutton button {
+  color: #ac4142;
+  border-color: #ac4142;
+}
+header section h1 {
+  text-align: center;
+}
+header section .ten.columns input {
+  width: 100%;
+}
+nav {
+  position: relative;
+  background-color: #808080;
+  height: 25px;
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+nav ul li {
+  display: inline;
+  float: left;
+  list-style-type: none;
+  text-transform: uppercase;
+  width: 150px;
+  margin-bottom: 0px;
+}
+nav ul li a {
+  text-decoration: none;
+  background-color: #808080;
+  color: #FFFFFF;  
+  display: block;
+  width: 140px;
+ 	padding-left: 10px;
+}
+nav ul li a:hover {
+  background-color: #666666;
+  color: #FFFFFF;
+}
+nav ul li ul {
+  visibility: hidden;
+}
+nav ul li:hover ul {
+	visibility: visible
+}
+footer .twelve.columns {
+  background-color: #808080;
+  color: #FFFFFF;
+}
+#footerbackground {
+  min-height: 25px;
+  position: absolute;
+  width: 100%;
+  background-image: url('../images/background_grey.png');
 }

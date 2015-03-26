@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<title>Comp1950 - Team Persius Project Site</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<link rel="stylesheet" href="styles/normalize.css" media="all">  <!-- reset css -->
+<link rel="stylesheet" href="styles/skeleton.css" media="screen">  <!-- framework css -->
+<link rel="stylesheet" href="styles/mainstyles.css" media="screen"> <!-- main styles -->
+<!-- <link rel="stylesheet" href="styles/mainstyles_exp.css" media="screen"> <!-- main styles playArea -->
+<link rel="stylesheet" href="styles/printstyles.css" media="print"> <!-- print styles -->
+</head>
+
+<body>
+<header>
+	<div id="background"></div>
+</header>
+<div class="container">
+
+<!--#include file="headerandnav.inc" -->
+
+<div class="row">
+<main>
+<div class="twelve columns">
+
+<h2>Main content will go here</h2>
+<p>Lorem ipsum dolor sit amet, vestibulum ante facilis, nec in ipsum eu velit sit. Neque ipsum ultricies praesent dictum et, eu adipiscing arcu, nisl wisi arcu, ut vel integer massa tortor et, ut sem ut nunc bibendum orci sodales. Ipsum malesuada magna in ornare arcu, sed molestie elit imperdiet commodo ligula. Laoreet ullamcorper atque porta arcu, vel consectetuer aptent, ridiculus eget gravida, et tincidunt, in pretium. Et scelerisque pulvinar habitasse. In nunc donec arcu, quam mauris, porta imperdiet non id natoque arcu, ante nulla suspendisse, sapien eget a dolor suspendisse.
+
+Quis arcu integer vivamus vel rutrum erat, tortor magna feugiat vitae, amet phasellus, convallis vulputate orci libero. Eget wisi, dapibus lacus sollicitudin diam. Praesent pede vestibulum, suscipit vel pellentesque wisi amet. Mattis duis sed convallis, in in est rutrum scelerisque bibendum, suspendisse lectus amet sociis vivamus cum doloremque. Proin pellentesque pharetra mauris sem nec, cras at quis quisque, in et.
+
+Dignissim aenean mauris sagittis posuere sed semper, commodo mauris quam quam pretium vestibulum, volutpat tortor arcu ligula. Blandit justo interdum aut eros risus nascetur, ipsum orci non quisque diam tortor vestibulum, nulla sed turpis vestibulum, proin ac eaque. Tellus porttitor vitae, purus tellus in sit est rhoncus ipsum. Amet vel donec. Cras arcu, mauris et, vitae est congue neque a elit nulla, vestibulum mollis mauris imperdiet, mattis non.
+
+Mauris tortor nibh volutpat integer integer mattis, in nec arcu, integer turpis nibh, nibh ridiculus consectetuer, pede justo. Dis aenean maecenas curabitur, cursus in vitae nulla maecenas neque, eget mauris fermentum sed. Ultrices vel, euismod aenean pede parturient, felis ut ut lobortis cursus nec, odio ullamcorper pede, aenean mi sagittis elit quam elit ac. Fusce laoreet scelerisque donec, tortor semper nunc convallis elit, in egestas quaerat nec ut, sodales consequuntur, nunc sit sit vel. Ut tortor natoque pretium interdum tellus dapibus. Ante pede, sed sed mi placerat ultricies, arcu in iaculis facilisis elementum fusce magna, quis in turpis integer imperdiet.
+</p>
+
+</div>  <!-- /.twelve.columns -->
+</main>
+</div>  <!-- /.row -->
+
+<!--#include file="footer.inc" -->
+
+</div> <!-- /.container -->
+<div id="footerbackground"></div>
+</body>
+
+</html>
