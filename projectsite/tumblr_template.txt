@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <script src="http://static.tumblr.com/d4f9lry/cwfnlr6kp/jquery-1.11.2.min.js"></script>
+        <script src="http://static.tumblr.com/d4f9lry/Cvfnlr7lp/left_nav.js"></script>
+        <link rel="stylesheet" href="http://static.tumblr.com/d4f9lry/KMPnlr6kc/normalize.css"/>
+        <link rel="stylesheet" href="http://static.tumblr.com/d4f9lry/a7Nnlnh6w/skeleton.css"/>
+        <link rel="stylesheet" href="http://static.tumblr.com/d4f9lry/wWTnlt9dx/styles.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'/>
+        <style>
+            .nav_background {
+                background-color: #b0c4de;
+                height:50px;
+            }
+            
+            .search_background {
+                background-color: #b0c7de;
+                height:50px;
+            }
+            
+            .side_nav_area {
+                background-color:  #b0c7de;
+            }
+            
+            .text_background {
+                border: 25px solid navy;
+            }
+            
+            img {
+                min-width: 80%;
+                height: auto;
+            }
+            
+            .gray_background {
+                background-color: #d9d9d9;
+                border-style: solid;
+                border-width:1px;
+                border-color: #d9d4d4;
+                border-radius: 0.3em;
+            }
+            
+            .text_centerize {
+                text-align:center;
+            }
+            
+            .title_font {
+                font-family: 'Poiret+One', Helvetica, serif;
+                font-size: 28px;
+                /*text-shadow: 4px 4px 4px #aaa;*/
+                margin:20px;
+                
+            }
+            
+            .text_body {
+                font-family: 'Poiret+One', Helvetica, serif;
+                font-size: 16px;
+                text-align:left;
+                margin: 20px 20px;
+                padding:10px;
+                background-color: #b0c4de;
+                border-style: solid;
+                border-width:1px;
+                border-color: #d9d4d4;
+                border-radius: 0.3em;
+            }
+            
+            .image {
+                display: block;
+                max-width:400px;
+                max-height:400px;
+                width: auto;
+                height: auto;
+                margin:20px;
+            }
+            
+            .main_title {
+                font-family: 'Poiret+One', Helvetica, serif;
+                font-size: 40px;
+                text-align:left;
+            }
+            
+            .bottom_nav {
+                background-color:  #b0c7de;
+                height:20px;
+                width:100%;
+            }
+            
+            .date {
+                text-align:right;
+                padding:0px 10px 0px 0;
+            }
+            
+            .video_padding {
+                display: block;
+                max-width:400px;
+                max-height:400px;
+                width: auto;
+                height: auto;
+                padding:20px 20px 0px 20px;
+
+            }
+            
+            .video_caption {
+                font-family: 'Poiret+One', Helvetica, serif;
+                font-size: 20px;
+                /*text-shadow: 4px 4px 4px #aaa;*/
+                margin:20px;
+            }
+            
+            .portrait {
+                max-width:24px;
+                max-height:24px;
+                margin:5px;
+                /*display:inline-block;*/
+            }
+            
+            .username {
+                margin:0px 0px 0px 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+         <div class="container">
+         <div class="row">
+                <div class="twelve columns" id="banner">
+                <h1>COMP 1950 - Web Development 2</h1>
+                </div>
+            </div>
+            <div class="row">
+            <nav id="top_nav" class = "twelve columns">
+			<ul>
+				<li><a href ="#">Home </a></li>
+				<li><a href ="#">News</a></li>
+				<li><a href ="#">Lecture</a> </li>
+				<li><a href ="#">Project</a></li>
+				<li><a href ="#">Discussion</a> </li>
+			</ul>
+		    </nav>
+		    </div>
+		    <div id="search_bar" class = "row">
+			<form>
+				<input class="seven columns" type="text" placeholder="Search"/>
+				<input type="submit" value="Submit">
+			</form>
+		</div><!--/#lsearch_bar-->
+            
+            <div class="row">
+                <div class="three columns">
+                <div><br></br></div>
+                </div>
+                <div class="nine columns">
+                    <div class="main_title">NEWS</div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <!--<div class="four columns">-->
+                <!--    Four-->
+                <!--</div>-->
+                
+                <div id="left_nav" class = "three columns">
+		<ul>
+			<li><a href ="#" id="lecture1">Lecture 1</a></li>
+			<ul class="sublist" id="sublist1">
+				<li><a href ="#">Topic 1</a></li>
+				<li><a href ="#">Topic 2</a></li>
+				<li><a href ="#">Homework</a></li>
+			</ul>
+			<li><a href ="#" id="lecture2">Lecture 2</a></li>
+			<ul class="sublist" id="sublist2">
+				<li><a href ="#">Topic 1</a></li>
+				<li><a href ="#">Topic 2</a></li>
+				<li><a href ="#">Homework</a></li>
+			</ul>
+			<li><a href ="#" id="lecture3">Lecture 3</a></li>
+			<ul class="sublist" id="sublist3">
+				<li><a href ="#">Topic 1</a></li>
+				<li><a href ="#">Topic 2</a></li>
+				<li><a href ="#">Homework</a></li>
+			</ul>
+			<li><a href ="#" id="lecture4">Lecture 4</a></li>
+			<ul class="sublist" id="sublist4">
+				<li><a href ="#">Topic 1</a></li>
+				<li><a href ="#">Topic 2</a></li>
+				<li><a href ="#">Homework</a></li>
+			</ul>
+			<li><a href ="#" id="lecture5">Lecture 5</a></li>
+			<ul class="sublist" id="sublist5">
+				<li><a href ="#">Topic 1</a></li>
+				<li><a href ="#">Topic 2</a></li>
+				<li><a href ="#">Homework</a></li>
+			</ul>
+			<li><a href ="#" id="lecture6">Lecture 6</a></li>
+			<ul class="sublist" id="sublist6">
+				<li><a href ="#">Topic 1</a></li>
+				<li><a href ="#">Topic 2</a></li>
+				<li><a href ="#">Homework</a></li>
+			</ul>
+			<li><a href ="#" id="lecture7">Lecture 7</a></li>
+			<ul class="sublist" id="sublist7">
+				<li><a href ="#">Topic 1</a></li>
+				<li><a href ="#">Topic 2</a></li>
+				<li><a href ="#">Homework</a></li>
+			</ul>
+			<li><a href ="#" id="lecture8">Lecture 8</a></li>
+			<ul class="sublist" id="sublist8">
+				<li><a href ="#">Topic 1</a></li>
+				<li><a href ="#">Topic 2</a></li>
+				<li><a href ="#">Homework</a></li>
+			</ul>
+			<li><a href ="#" id="lecture9">Lecture 9</a></li>
+			<ul class="sublist" id="sublist9">
+				<li><a href ="#">Topic 1</a></li>
+				<li><a href ="#">Topic 2</a></li>
+				<li><a href ="#">Homework</a></li>
+			</ul>
+			<li><a href ="#" id="lecture10">Lecture 10</a></li>
+			<ul class="sublist" id="sublist10">
+				<li><a href ="#">Topic 1</a></li>
+				<li><a href ="#">Topic 2</a></li>
+				<li><a href ="#">Homework</a></li>
+			</ul>
+			<li><a href ="#" id="lecture11">Lecture 11</a></li>
+			<ul class="sublist" id="sublist11">
+				<li><a href ="#">Topic 1</a></li>
+				<li><a href ="#">Topic 2</a></li>
+				<li><a href ="#">Homework</a></li>
+			</ul>
+			<li><a href ="#" id="lecture12">Lecture 12</a></li>
+			<ul class="sublist" id="sublist12">
+				<li><a href ="#">Topic 1</a></li>
+				<li><a href ="#">Topic 2</a></li>
+				<li><a href ="#">Homework</a></li>
+			</ul>
+		</ul>
+		</div> <!--/#left_nav-->
+		
+                <div class="nine columns">
+                        {block:Posts}
+                        {block:Even}
+                    <div class="gray_background">
+                     {/block:Even}
+                    {block:Odd}
+                        <div class="white_background">
+                        {/block:Odd}
+                       <!--Text-CODE-->
+                            {block:Text}
+                            <div class="row">
+                                {block:Title}
+                                <div class="twelve columns">
+                                    <p class="title_font">{Title}</p>
+                                    <div class="text_body">{Body}</div>
+                                </div>
+                                <!--<div class="eight columns">-->
+                                <!--    <p class="text_body">{Body}</p>-->
+                                <!--</div>-->
+                                {/block:Title}
+                                </div>
+                            {block:Text}
+                    
+                    <!--Image CODE-->
+                            {block:Photo}
+                            <div class="row">
+                            {block:Caption}
+                            <div class="four columns">
+                                    <div class="title_font">{Caption}</div>
+                            </div>
+                            {/block:Caption}
+                            <div class="eight columns">
+                                <div>
+                                    <img class="image" src="{PhotoURL-500}" alt="{PhotoAlt}"/>
+                                </div>
+                            </div>
+                            </div>
+                            {/block:Photo}
+                            
+                    <!--VIDEO CODE-->
+                            {block:Video}
+                                <div class="row">
+                                        {block:Caption}
+                                        <div class="four columns">
+                                            <div class="video_caption text_body">{Caption}</div>
+                                        </div>
+                                        {/block:Caption}
+                                        <div class="eight columns video_padding">
+                                                {Video-400}
+                                        </div>
+                                </div>
+                            {/block:Video}
+                            
+                        <!--QUOTE CODE-->
+                            {block:Quote}
+                            
+                                <div class="row">
+                                    <div class="twelve columns">
+                                    
+                                        <div class="text_body">
+                                            {Quote} - {Source}
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            {/block:Quote}
+                                    <div class="row">
+                                    <div class="one columns">
+	                                    <p class="username">{PostAuthorName}</p>
+	                                    <img class="portrait" src="{PostAuthorPortraitURL-24}" alt="logo" style="width:24px;height:24px;">
+	        </div>
+	                                    <div class="eight columns">
+	                                        <br></br>
+	                                    </div>
+                                        <div class="three columns">
+                                            <div class="date">{TimeAgo}</div>
+                                        </div>
+                                    </div>
+                        </div>
+                    {/block:Posts}
+                
+                    <!--<div class="row">-->
+                    <!--    <div class="four columns">-->
+                    <!--        Four-->
+                    <!--    </div>-->
+                    <!--    <div class="eight columns">-->
+                    <!--        Eight-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    
+                    <!--<div class="row">-->
+                    <!--    <div class="four columns">-->
+                    <!--        Four-->
+                    <!--    </div>-->
+                    <!--    <div class="eight columns">-->
+                    <!--        Eight-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    
+            <!--        <div class="row">-->
+            <!--            <div class="four columns">-->
+            <!--                Four-->
+            <!--            </div>-->
+            <!--            <div class="eight columns">-->
+            <!--                Eight-->
+            <!--            </div>-->
+            <!--        </div>-->
+                    
+            <!--        <div class="row">-->
+            <!--            <div class="four columns">-->
+            <!--                Four-->
+            <!--            </div>-->
+            <!--            <div class="eight columns">-->
+            <!--                Eight-->
+            <!--            </div>-->
+            
+                    <div class="row">
+                                        <div class="twelve columns text_centerize">
+                                            {block:Pagination}{block:PreviousPage}
+                <a href="{PreviousPage}">Previous</a>
+            {/block:PreviousPage}{block:JumpPagination length="5"}{block:CurrentPage}
+                    <span class="current_page">{PageNumber}</span>
+                {/block:CurrentPage}{block:JumpPage}
+                    <a class="jump_page" href="{URL}">{PageNumber}</a>
+                {/block:JumpPage}{/block:JumpPagination}{block:NextPage}
+                <a href="{NextPage}">Next</a>
+            {/block:NextPage}{/block:Pagination}
+                                        </div>
+                                    </div>
+                                    
+                    </div>
+                </div>
+            </div>
+            
+        <div class="bottom_nav">
+            Bottom
+        </div>
+        </body>
+</html>
+
