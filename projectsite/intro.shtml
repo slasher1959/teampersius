@@ -24,14 +24,38 @@
 <div class="twelve columns">
 
 <h2>This is our Intro Page Content</h2>
-<p>Lorem ipsum dolor sit amet, vestibulum ante facilis, nec in ipsum eu velit sit. Neque ipsum ultricies praesent dictum et, eu adipiscing arcu, nisl wisi arcu, ut vel integer massa tortor et, ut sem ut nunc bibendum orci sodales. Ipsum malesuada magna in ornare arcu, sed molestie elit imperdiet commodo ligula. Laoreet ullamcorper atque porta arcu, vel consectetuer aptent, ridiculus eget gravida, et tincidunt, in pretium. Et scelerisque pulvinar habitasse. In nunc donec arcu, quam mauris, porta imperdiet non id natoque arcu, ante nulla suspendisse, sapien eget a dolor suspendisse.
+<p>Requirements
+The COMP 1950 owner (Alistair Calder) would like the web site redesigned in order to better meet the needs of students. The website owner has contracted your group, as students of the class, to act as contractors for this project
 
-Quis arcu integer vivamus vel rutrum erat, tortor magna feugiat vitae, amet phasellus, convallis vulputate orci libero. Eget wisi, dapibus lacus sollicitudin diam. Praesent pede vestibulum, suscipit vel pellentesque wisi amet. Mattis duis sed convallis, in in est rutrum scelerisque bibendum, suspendisse lectus amet sociis vivamus cum doloremque. Proin pellentesque pharetra mauris sem nec, cras at quis quisque, in et.
+Project Goals
 
-Dignissim aenean mauris sagittis posuere sed semper, commodo mauris quam quam pretium vestibulum, volutpat tortor arcu ligula. Blandit justo interdum aut eros risus nascetur, ipsum orci non quisque diam tortor vestibulum, nulla sed turpis vestibulum, proin ac eaque. Tellus porttitor vitae, purus tellus in sit est rhoncus ipsum. Amet vel donec. Cras arcu, mauris et, vitae est congue neque a elit nulla, vestibulum mollis mauris imperdiet, mattis non.
+    Students must have easy access to notes, examples and other information
+    The site should reflect the aims of the course: Standards compliant web development, CSS, HTML, Methodology-driven design, etc
+    Think outside the box - don’t just copy the current design. Look around at other sites and use your creativity. But - be realistic! Make your suggestions something that can work
+    If you have questions that will further refine your own direction, ask the owner of the site for details Think about this project in context of the Methodology discussion that happened in class and the readings for week 8
 
-Mauris tortor nibh volutpat integer integer mattis, in nec arcu, integer turpis nibh, nibh ridiculus consectetuer, pede justo. Dis aenean maecenas curabitur, cursus in vitae nulla maecenas neque, eget mauris fermentum sed. Ultrices vel, euismod aenean pede parturient, felis ut ut lobortis cursus nec, odio ullamcorper pede, aenean mi sagittis elit quam elit ac. Fusce laoreet scelerisque donec, tortor semper nunc convallis elit, in egestas quaerat nec ut, sodales consequuntur, nunc sit sit vel. Ut tortor natoque pretium interdum tellus dapibus. Ante pede, sed sed mi placerat ultricies, arcu in iaculis facilisis elementum fusce magna, quis in turpis integer imperdiet.
-</p>
+Deliverables
+
+For this project, you have been contracted to provide a protosite and supporting documents for the proposed website Your deliverables are going to be:
+
+    A web site created for this project that describes the project (similar to this example sitemap) and links to various artifacts. This is generally known as a meta site.
+    An Introduction page that describes the project and the members of the team. This page should also list what each team member actually did during the project
+    A proto-site that has at least three of the main pages mocked up. The home page, a lecture page and a blog page are required, others as necessary.
+    The blog page can either be news, or a blog or whatever you think would make for timely news. You must use Tumblr for this, and make your template match whatever you come up with for the rest of the site.
+    Wireframe(s) of the major sections of the site (Example lecture page) that you used to design the protosite (done in HTML, Word or Visio). These can also be done by using paper prototypes (scanned) or just using a low-tech solution like Word (make boxes in Drawing mode) or HTML (using simple tables)
+    Include descriptions of what is included in each content area
+    Sitemap (Example sitemap) (HTML, Word or Visio)
+    Rationale page - this is the most important page in your site. This is where you describe why you chose to build the site in the way you have proposed. Make sure you agreee on this in your group!
+    All of this should be presented in an HTML compliant web site with CSS-based Navigation
+
+Teamwork
+
+This project will require work from all members of your team!
+Validation
+
+    All content must be valid HTML5
+    All presentation must be valid CSS
+    Add a referer link on each page to validate: http://validator.w3.org/</p>
 
 </div>  <!-- /.twelve.columns -->
 </main>
