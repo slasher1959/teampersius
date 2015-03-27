@@ -27,7 +27,7 @@ div#banner{
 
 div#banner>h1{
 	text-align: center;
-	color: #CC0000;
+	color: #AC4142;
 	margin: 0px;
 }
 
@@ -64,14 +64,16 @@ div#left_nav a:link {
 	font-family: "Source Sans Pro",Georgia,"Times New Roman",serif;
 	font-weight: 400;
 	text-decoration: none;
+	color: #515151;
 	font-size: 1.25em;
 	line-height: 1.33333;
 }
 
-div#left_nav a:link {
+div#left_nav a:visited {
 	font-family: "Source Sans Pro",Georgia,"Times New Roman",serif;
 	font-weight: 400;
 	text-decoration: none;
+	color: #515151;
 	font-size: 1.25em;
 	line-height: 1.33333;
 }
