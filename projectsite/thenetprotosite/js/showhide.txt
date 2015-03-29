@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+	<title>ShowHide Example</title>
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#hide-me").click(function(){
+			$("#heading").hide();	
+		});
+		
+		$("#show-me").click(function(){
+			$("#heading").show();	
+		});
+		
+		$("#toggle-me").click(function(){
+			$("#heading").toggle();	
+		});
+		
+		$("#slide-up").click(function(){
+			$("#heading").slideUp();	
+		});
+		
+		$("#slide-down").click(function(){
+			$("#heading").slideDown();	
+		});
+		
+		$("#slide-toggle").click(function(){
+			$("#heading").slideToggle();	
+		});
+		
+		$("#add-class").click(function(){
+			$("#heading").addClass("addClass");	
+		});
+		
+		$("#remove-class").click(function(){
+			$("#heading").removeClass("addClass");	
+		});
+});
+</script>
+<style>
+.addClass {
+    background-color: red;
+}
+</style>
+</head>
+
+<body>
+<div id="heading">	
+<h1>Site Heading</h1>
+<p>This is the heading section, that might contain any amount of HTML, CSS, etc.</p>
+</div>
+
+<div class="examples">
+<ul>
+   <li><a id="hide-me" href="#">Hide</a></li>
+   <li><a id="show-me" href="#">Show</a></li>
+   <li><a id="toggle-me" href="#">Toggle</a></li>
+   <li><a id="slide-up" href="#">Slide Up</a></li>
+   <li><a id="slide-down" href="#">Slide Down</a></li>
+   <li><a id="slide-toggle" href="#">Slide Toggle</a></li>
+   <li><a id="add-class" href="#">Add Class</a></li>
+   <li><a id="remove-class" href="#">Remove Class</a></li>
+</ul>
+</div>
+
+</body>
+</html>
+

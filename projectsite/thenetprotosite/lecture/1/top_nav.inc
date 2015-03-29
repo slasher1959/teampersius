@@ -2,10 +2,7 @@
 			<ul>
 				<li><a href ="http://teams.thenet.ca/persius/thenetprotosite">Home </a></li>
 				<li><a href ="#">News</a></li>
-				<li><a href ="#">Lecture</a> </li>
-					<ul>
-						<li><a href ="http://teams.thenet.ca/persius/thenetprotosite/lecture">Home </a></li>
-					</ul>
+				<li><a href ="http://teams.thenet.ca/persius/thenetprotosite/lecture/">Lecture</a> </li>
 				<li><a href ="#">Project</a></li>
 				<li><a href ="#">Discussion</a> </li>
 				<li><a href ="#">Instructor Feedback</a> </li>

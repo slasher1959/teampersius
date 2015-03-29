@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="../../js/jquery-1.11.2.min.js"></script>
+<script src="../../js/left_nav.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../../css/normalize.css">
+<link rel="stylesheet" href="../../css/skeleton.css">
+<link rel="stylesheet" href="../../css/styles.css">
+<link rel="stylesheet" href="css/lecture_page.css">
+<title>COMP 1950 - Web Development 2</title>
+</head>
+
+<body>
+	<div class="container">
+		<!--#include file = "banner.inc"-->
+		<!--#include file = "top_nav.inc"-->
+		<div class = "rows"> <!--the whole area below the search bar is 1 row-->
+		<!--#include file = "left_nav.inc"-->
+						<div id="right_content" class = "ten columns">
+			<h1 id="agenda">Agenda</h1>
+
+			<ul>
+				<li>Last week - missed a few things</li>
+				<li>Web review: some reminders</li>
+				<li>Homework review</li>
+				<li>Web Development with Firefox, Chrome and Safari</li>
+				<li>Standards &amp; Semantics</li>
+				<li>Markup Languages</li>
+				<li>Assignment &amp; Homework</li>
+			</ul>
+
+			<h2 id="web-review-reminders" name="web-review">Web review: reminders</h2>
+
+			<p>There are a few things that bear reminding:</p>
+
+			<ul>
+				<li>file and folder names cannot contain:</li>
+				<li>capital letters</li>
+				<li>spaces</li>
+				<li>special characters:</li>
+			</ul>
+
+			<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="err">!</span> <span class="err">@</span> <span class="c"># $ % ^ &amp; * ( ) + { } [ ] : ; &quot; &lt; &gt; ? |</span></code></pre></div>
+
+			<ul>
+				<li>acceptable non-alphanumeric characters: . _ - ~</li>
+				<li>default page: index.htm, index.html or index.shtml (or whatever your server default is)</li>
+			</ul>
+
+			<h2 id="homework-review" name="homework-review">Homework review</h2>
+
+			<p>As this is a web development course, let’s talk a bit about coding patterns &amp; behaviour.</p>
+
+			<h3 id="comments">Comments</h3>
+
+			<p>Comments in your code are great! For you, anyone you work with or anyone looking at your site, both today and especially <em>in the future</em>.</p>
+
+			<ul>
+				<li>Code should tell the story, comments are just additional notes. Be brief!</li>
+				<li>Use tags to help you out</li>
+				<li>Minimize the amount you comment on</li>
+				<li>Opening tags unnecessary</li>
+			</ul>
+
+			<h2 id="browser-tools" name="browser-tools">Browser Tools</h2>
+
+			<h3 id="lots-of-options">Lots of options</h3>
+
+			<p>These days there are lots of browser-based tools available for web developers. Initially, Mozilla (Firefox) built in some basic tools and their plug-ins centered around web development.</p>
+
+			<p>Now, Webkit (Chrome, Safari) and Mozilla (Firefox) have excellent tools built-in. Some need to be “turned on” but others are built in by default.</p>
+
+			<p>The tools are enhanced by their organizations and are ever-increasing in capability and what they can do.</p>
+
+			<p><em>Do not underestimate how powerful these tools can be!</em> I can guarantee these tools will get you out of trouble, or solve a problem you didn’t even know you had.</p>
+
+			<h3 id="what-kinds-of-things-do-these-tools-help-you-with">What kinds of things do these tools help you with?</h3>
+
+			<ul>
+				<li>Checking validity of your code</li>
+				<li>See errors in rendering</li>
+				<li>Use the console for Javascript output (remember to code your error throwing!)</li>
+				<li>Slow loading resources</li>
+				<li>Large resources</li>
+				<li>External bottlenecks</li>
+				<li>Rendering issues</li>
+				<li>… much more!</li>
+			</ul>
+
+			<p class="message">While we will look at Chrome and Safari, the focus will be Firefox in COMP1950 so that we are all working from the same platform.</p>
+
+			<p><strong>Remember</strong>: to check in all browsers when taking a look at your site for production.</p>
+			<h1 name="homework">Week Two Homework</h1>
+			<h2 id="create-two-realtor-pages">Create Two Realtor Pages</h2>
+
+			<p>You will create the same page, but twice: One in <strong>XHTML Strict</strong> and the other using <strong>HTML5</strong></p>
+
+			<h2 id="details">Details</h2>
+
+			<p>You will create a web page for a Realtor (fictional or real), which we will use as the course goes on. </p>
+
+			<h3 id="required-components">Required components</h3>
+
+			<p>Take a look at existing Realtor sites and take a look at some of the standard elements in each. </p>
+
+			<p>At a minimum, each version (XHTML and HTML5) should include:</p>
+
+			<ul>
+				<li>Realtor photo</li>
+				<li>Company information (Company name, Logo)</li>
+				<li>Contact information (phone, email, address)</li>
+				<li>Where in the lower mainland they work</li>
+				<li>At least 2 current listings</li>
+				<li>At least 2 sold listings</li>
+				<li>Short Realtor biography</li>
+			</ul>
+
+			<p>The page does not have to be big, think of it as a summary page. We will build listings and more detail later.</p>
+
+			<h3 id="design">Design</h3>
+
+			<ul>
+				<li>The focus of your page should be the inclusion of information rather than the presentation.	</li>
+				<li>Use CSS to create the presentation layer, fonts and measurements don’t have to be exact.</li>
+				<li>Use any layout scheme you would like (tables, CSS, etc)</li>
+			</ul>
+
+			<h3 id="versions">Versions</h3>
+
+			<p>There will be two versions of the page you create.  They should both contain the same information but built with two different web technologies:</p>
+
+			<ul>
+				<li><strong>XHTML Strict</strong> - Be sure to review the requirements for an XHTML Strict page</li>
+				<li><strong>HTML5</strong> -  Review what we discussed to day about HTML5 and be sure to include tags from HTML5</li>
+			</ul>
+		</div> <!--/#right_content-->
+	</div> <!-- /.container-->
+</body>
+</html>

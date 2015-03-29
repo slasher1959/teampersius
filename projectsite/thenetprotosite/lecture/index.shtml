@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="../js/jquery-1.11.2.min.js"></script>
+<script src="../js/left_nav.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/skeleton.css">
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="css/lecture-list_page.css">
+<title>COMP 1950 - Web Development 2</title>
+</head>
+
+<body>
+	<div class="container">
+		<!--#include file = "banner.inc"-->
+		<!--#include file = "top_nav.inc"-->
+		<div class = "rows"> <!--the whole area below the search bar is 1 row-->
+			<div id="right_content">
+			<ul id = "lecture_list">
+				<li><h3><a href ="#" id="lecture1">Lecture 1</h3></a></li>
+				<ul class="sublist" id="sublist1">
+					<li><a href ="http://teams.thenet.ca/persius/thenetprotosite/lecture/1#web-review">Web Review</a></li>
+					<li><a href ="http://teams.thenet.ca/persius/thenetprotosite/lecture/1#homework-review">HW Review</a></li>
+					<li><a href ="http://teams.thenet.ca/persius/thenetprotosite/lecture/1#browser-tools">Tools</a></li>
+					<li><a href ="http://teams.thenet.ca/persius/thenetprotosite/lecture/1#homework">Homework</a></li>
+				</ul>
+				<li><h3><a href ="#" id="lecture2">Lecture 2</h3></a></li>
+				<ul class="sublist" id="sublist2">
+					<li><a href ="#">Topic 1</a></li>
+					<li><a href ="#">Topic 2</a></li>
+					<li><a href ="#">Homework</a></li>
+				</ul>
+				<li><h3><a href ="#" id="lecture3">Lecture 3</h3></a></li>
+				<ul class="sublist" id="sublist3">
+					<li><a href ="#">Topic 1</a></li>
+					<li><a href ="#">Topic 2</a></li>
+					<li><a href ="#">Homework</a></li>
+				</ul>
+				<li><h3><a href ="#" id="lecture4">Lecture 4</h3></a></li>
+				<ul class="sublist" id="sublist4">
+					<li><a href ="#">Topic 1</a></li>
+					<li><a href ="#">Topic 2</a></li>
+					<li><a href ="#">Homework</a></li>
+				</ul>
+				<li><h3><a href ="#" id="lecture5">Lecture 5</h3></a></li>
+				<ul class="sublist" id="sublist5">
+					<li><a href ="#">Topic 1</a></li>
+					<li><a href ="#">Topic 2</a></li>
+					<li><a href ="#">Homework</a></li>
+				</ul>
+				<li><h3><a href ="#" id="lecture6">Lecture 6</h3></a></li>
+				<ul class="sublist" id="sublist6">
+					<li><a href ="#">Topic 1</a></li>
+					<li><a href ="#">Topic 2</a></li>
+					<li><a href ="#">Homework</a></li>
+				</ul>
+				<li><h3><a href ="#" id="lecture7">Lecture 7</h3></a></li>
+				<ul class="sublist" id="sublist7">
+					<li><a href ="#">Topic 1</a></li>
+					<li><a href ="#">Topic 2</a></li>
+					<li><a href ="#">Homework</a></li>
+				</ul>
+				<li><h3><a href ="#" id="lecture8">Lecture 8</h3></a></li>
+				<ul class="sublist" id="sublist8">
+					<li><a href ="#">Topic 1</a></li>
+					<li><a href ="#">Topic 2</a></li>
+					<li><a href ="#">Homework</a></li>
+				</ul>
+				<li><h3><a href ="#" id="lecture9">Lecture 9</h3></a></li>
+				<ul class="sublist" id="sublist9">
+					<li><a href ="#">Topic 1</a></li>
+					<li><a href ="#">Topic 2</a></li>
+					<li><a href ="#">Homework</a></li>
+				</ul>
+				<li><h3><a href ="#" id="lecture10">Lecture 10</h3></a></li>
+				<ul class="sublist" id="sublist10">
+					<li><a href ="#">Topic 1</a></li>
+					<li><a href ="#">Topic 2</a></li>
+					<li><a href ="#">Homework</a></li>
+				</ul>
+				<li><h3><a href ="#" id="lecture11">Lecture 11</h3></a></li>
+				<ul class="sublist" id="sublist11">
+					<li><a href ="#">Topic 1</a></li>
+					<li><a href ="#">Topic 2</a></li>
+					<li><a href ="#">Homework</a></li>
+				</ul>
+				<li><h3><a href ="#" id="lecture12">Lecture 12</h3></a></li>
+				<ul class="sublist" id="sublist12">
+					<li><a href ="#">Topic 1</a></li>
+					<li><a href ="#">Topic 2</a></li>
+					<li><a href ="#">Homework</a></li>
+				</ul>
+			</ul>
+			</div><!--/#right_content-->
+		</div><!--./rows-->
+	</div> <!-- /.container-->
+</body>
+</html>

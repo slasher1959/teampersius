@@ -1,0 +1,70 @@
+p {
+	padding: 0px 10px 0px 10px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+ul#learning_objectives > li , div#social_icons{
+	margin: 0px;
+}
+
+footer>div, footer>div div.columns {
+	background-color: #D9D9D9;
+	padding: 10px;
+	margin: 0px;
+}
+
+footer  p {
+	padding: 0px;
+}
+
+div#about_instructor {
+	padding: 0 10px 0 10px;
+	margin: 0px;
+}
+
+div#about_instructor h4, div#about_instructor p{
+	margin: 0px;
+	padding: 0px;
+}
+
+div#about_instructor p{
+	font-weight: 400;
+	font-family: "Source Sans Pro",Georgia,"Times New Roman",serif;
+}
+
+div#footer_right_part{
+	width: 30%;
+}
+
+div#footer_right_part p{
+	line-height: 100%;
+	font-size: .8em;
+	
+}
+
+/**RESPONSIVE DESIGN STUFF **/
+div#about_instructor {
+	width: 70%;
+}
+
+div#footer_picture, img#instructor_pic {
+	display: none;
+}
+div#social_icons>a>img {
+	max-width: 25%
+}
+
+@media (min-width: 800px) {
+	div#about_instructor {
+		width: 56.6667%;
+	}
+
+	div#footer_picture, img#instructor_pic {
+		display: inline;
+	}
+
+	div#social_icons>a>img {
+	max-width: 100%
+	}
+}

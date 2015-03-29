@@ -1,0 +1,77 @@
+pre, blockquote, dl, figure, table, p, ul, ol, form, li, h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 10px;
+}
+
+h1#agenda{
+	margin-top: 0px;
+}
+
+div#right_content {
+	padding-right: 10px;
+}
+
+.highlight .err {
+	color: #A00;
+	background-color: #FAA;
+}
+
+ul#lecture_list>li {
+	list-style-type: none;
+	color: #AC4142;
+	padding-left: 10px;
+-margin-left: 30%;
+}
+
+ul#lecture_list>li a:link {
+	text-decoration: none;
+	color: #AC4142;
+}
+
+ul#lecture_list>li a:visited {
+	text-decoration: none;
+	color: #AC4142;
+}
+
+ul#lecture_list>li a:hover  {
+	text-decoration: none;
+	color: #AC4142;
+	text-shadow: 1px 1px #a8a79e;
+}
+
+ul#lecture_list>li a:active  {
+	text-decoration: none;
+	color: #AC4142;
+}
+
+ul.sublist > li {
+	padding-left: 20px;
+}
+
+ul#lecture_list h3, ul.sublist  {
+	margin: 0px;
+}
+
+ul#lecture_list ul.sublist a:link {
+	text-decoration: none;
+	color: #515151;
+}
+
+ul#lecture_list ul.sublist a:visited {
+	text-decoration: none;
+	color: #515151;
+}
+
+ul#lecture_list ul.sublist a:hover  {
+	text-decoration: none;
+	color: #515151;
+	text-shadow: 1px 1px #a8a79e;
+}
+
+ul#lecture_list ul.sublist a:active  {
+	text-decoration: none;
+	color: #515151;
+}

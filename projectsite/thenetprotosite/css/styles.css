@@ -1,0 +1,179 @@
+html, body {
+	background-color: #F9F9F9;
+	padding: 0px;
+	height: 100%;
+	color: #515151;
+	font-family: "Helvetica Neue", Helvetica, "Source Sans Pro",Helvetica,Arial,sans-serif;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Source Sans Pro",Georgia,"Times New Roman",serif;
+	font-weight: 400;
+	color: #262626;
+	letter-spacing: -0.025rem;
+}
+
+img {
+	max-width: 100%;
+}
+div.container {
+	background-color: #FFFFFF;
+	padding: 0px;
+
+}
+div#banner{
+	text-align: center;
+	background-color: #000000;
+	padding: 3%;
+}
+
+
+div#banner>h1{
+	text-align: center;
+	color: #AC4142;
+	margin: 0px;
+}
+
+nav ul {
+	margin-bottom: 10px;
+	background-color: #D9D9D9;
+}
+
+nav {
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	text-align: justify;
+	border-right: 1px solid #003471;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+nav li:last-child { 
+	border-right: none; 
+}
+
+nav a:link {
+	font-family: "Source Sans Pro",Georgia,"Times New Roman",serif;
+	font-weight: 400;
+	text-decoration: none;
+	color: #515151;
+	letter-spacing: 0.125em;
+}
+
+div#left_nav a:link {
+	font-family: "Source Sans Pro",Georgia,"Times New Roman",serif;
+	font-weight: 400;
+	text-decoration: none;
+	color: #515151;
+	font-size: 1.25em;
+	line-height: 1.33333;
+}
+
+div#left_nav a:visited {
+	font-family: "Source Sans Pro",Georgia,"Times New Roman",serif;
+	font-weight: 400;
+	text-decoration: none;
+	color: #515151;
+	font-size: 1.25em;
+	line-height: 1.33333;
+}
+
+div#left_nav ul.sublist {
+	margin: 0px;
+}
+
+
+div#left_nav ul.sublist li{
+	list-style-type: circle;
+	border: 0px;
+	padding: 0 0 0 5%;
+}
+
+div#left_nav ul.sublist li a:link {
+	font-size: 1.1em;
+}
+
+nav a:visited, div#left_nav a:visited {
+	text-decoration: none;
+	color: #515151;
+}
+
+nav a:hover, div#left_nav a:hover {
+	text-decoration: none;
+	color: #515151;
+	text-shadow: 1px 1px #a8a79e;
+}
+
+nav a:active, div#left_nav a:active {
+	text-decoration: none;
+	color: #515151;
+}
+
+div#search_bar > form > input[placeholder="Search"] {
+	margin-left: 13.3333%;
+}
+
+div#search_bar > form > input[type="submit"] {
+	margin-left: 10px;
+}
+
+div#left_nav ul {
+	list-style-type: none;
+}
+
+div#left_nav {
+	padding-left: 10px;
+}
+
+div#left_nav li{
+	margin: 0px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-top: 1px solid #515151;
+}
+
+/**RESPONSIVE DESIGN STUFF **/
+div#left_nav {
+	visibility: hidden;
+	height: 0px;
+}
+
+@media (min-width: 800px) {
+	div#left_nav {
+	visibility: visible;
+	height: 100%;
+	}
+
+	li#lecture_link {
+	display: none;
+	}
+}
+
+div#search_bar, div#search_bar form, div#search_bar input {
+	visibility: hidden;
+	height: 0px;
+	margin-bottom: 0px;
+}
+
+@media (min-width: 550px) {
+	div#search_bar, div#search_bar form,div#search_bar input  {
+	visibility: visible;
+	height: 100%;
+	margin-bottom: 1.5rem;
+	}
+}
+
+nav {
+	font-size: 1.3rem;
+}
+
+@media (min-width: 700px) {
+	nav {
+		font-size: 1.5rem;
+	}
+}
