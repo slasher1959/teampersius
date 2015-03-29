@@ -18,48 +18,108 @@
 <div class="container">
 
 <!--#include file="headerandnav.inc" -->
+<main>
+<div class="row">
+<div class="twelve columns">
+<h2>Our General Web Development Methodology</h2>
+</div> <!-- /.twelve.columns -->
+</div> <!-- /.row -->
 
 <div class="row">
-<main>
-<div class="twelve columns">
+<div class="six columns">
+<ol>
+	<li >Initial Objectives setting</li>
+	<li >Primary purpose (business)</li>
+	<ul><li>information only</li>
+		<li>marketing</li>
+		<li>order-taking</li>
+		<li>social media</li>
+		<li>content management</li>
+	</ul><li >Benchmarking potential examples or solutions to the business purpose</li>
+	<ul><li>customer research<br></li>
+		<li>market needs</li>
+	</ul>
+	<li >Refine needs or requirements<br></li>
+	<li >Concept or high level design<br></li>
+	<ul>
+		<li>content gathering</li>
+		<li>bridge gap between content and technological restrictions</li>
+	</ul>
+</ol>
 
-<h2>This is where we will talk about our methodology</h2>
-<p>    Initial Objectives setting
-    Primary purpose (business)
-        information only
-        marketing
-        order-taking
-        social media
-        content management
-    Benchmarking potential examples or solutions to the business purpose
-        customer research
-        market needs
-    Refine needs or requirements
-    Concept or high level design
-        content gathering
-        bridge gap between content and technological restrictions
-        mock up proposals
-        draw identity of site
-        define look and feel
-            color scheme
-            themes
-            branding
-            basic layout
-        initial site map and navigation
-    Prototyping
-        feedback
-    Development
-        version 1 of site
-        testing
-        constant feedback
-    customer testing
-    deployment
-    maintenance and updates
-</p>
+</div>  <!-- /.six.columns -->
+
+<div class="six columns">
+<ol start="5">
+	<li >Concept or high level design...(Cont'd)<br></li>
+	<ul>
+		<li>mock up proposals</li>
+		<li>draw identity of site</li>
+	</ul>
+	<ul>
+		<li>define look and feel</li>
+		<li>initial site map and navigation</li>
+	</ul>
+		<li >Prototyping</li>
+	<ul>
+		<li>feedback</li>
+	</ul>
+	<li >Development<br></li>
+	<ul>
+		<li>version 1 of site</li>
+		<li>testing</li>
+		<li>constant feedback</li>
+	</ul>
+	<li >customer testing</li>
+	<li >deployment</li>
+	<li >maintenance and updates</li>
+</ol>
+
+</div>  <!-- /.six.columns -->
+</div>  <!-- /.row -->
+
+<div class="row">
+<div class="twelve columns">
+<h2>Summary of Methodology We Used for This Project</h2>
+
+<p>When we were handed our project assignment in class, we each committed to review the material given to us regarding the project, meet to discuss our understanding, and at that point create a high level plan</p>
+<p>Our initial meeting, a kick off so to speak, was on March 14th, at Yaletown Starbucks.  We:</p>
+<ul>
+<li>reviewed our understanding of the project goals</li>
+<li>discussed the requirements that to clarify our understanding</li>
+<li>discussed whether we had any clarifications and/or questions we needed to ask Alistair</li>
+<li>created an initial high level project plan that would take us thru the next week</li>
+<li>setup a time and logistics for our next discussion</li>
+<li>We agreed we could meet as required using Webex and Conferencing facilities, thus allowing us to avoid needing to travel to have face to face meetings</li>
+<li>committed to each completing a review of a minimum of two sites before our next meeting, which we felt could be similar in their purpose to what Alistair felt the COMP 1950 site currently is and should be</li>
+</ul>
+<p>On March 22nd, we met for the second time and at this meeting:</p>
+<ul>
+	<li>reviewed the site assessments we had done, and discussed strengths and weaknesses of those findings</li>
+	<li>discussed standards that we would use in completing our project, including coding standards</li>
+	<li>decide on how we would manage the outputs and artifacts</li>
+	<li>created a full project plan and assigned creation of key wireframes and also one key deliverable from that plan to each team member and set a completion milestones for those of March 25th</li>
+</ul>
+<p>On March 26th at the next class, we met to review our key deliverables and progress.   We then:</p>
+<ul>
+	<li>made any refinements to our project plan</li>
+	<li>assigned all remaining tasks evenly, fairly, amongst our team members</li>
+	<li>set milestones thru to the end of our project assignment submission deadline</li>
+	<li>set and scheduled two additional checkpoint meetings to review progress</li>
+	<li>set an internal goal to have all of our content and basic layout completed for our project site by Monday, March 30th
+	<li>Allowed time to completed any formatting and final adjustments to our project content and site between March 31st and prior to class starting on April 2nd.</li>
+</ul>
 
 </div>  <!-- /.twelve.columns -->
-</main>
 </div>  <!-- /.row -->
+
+<div class="row">
+<h3>Overview of the methodology, the steps we followed in completing the project:</h3>
+<img src="images/comp1950_project_siteversion.jpg" accesskey="Project Methodology Overview Diagram">
+<div class="twelve columns">
+</div>  <!-- /.twelve.columns -->
+</div>  <!-- /.row -->
+</main>
 
 <!--#include file="footer.inc" -->
 

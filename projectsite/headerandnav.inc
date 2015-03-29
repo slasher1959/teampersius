@@ -4,7 +4,7 @@
 
 <div class="two columns" id="headerlogo">
 
-<img src="http://www.mbtmag.com/sites/mbtmag.com/files/legacyimages/1109/12/ed2_Prototype.jpg" alt="A Persius Prototype">
+<img src="images/ed2_Prototype.jpg" alt="A Persius Prototype">
 
 </div>  <!-- /.three.columns -->
 <div class="ten columns" id="companyintro">
@@ -37,27 +37,16 @@
 <div class="twelve columns">
 <nav>
 	<ul id="mainmenu">
-		<li><a href="index.shtml">Home</a>
+		<li><a href="index.shtml">Home</a></li>
+		<li><a href="#">Project</a>
 			<ul>
 				<li><a href="intro.shtml">Intro</a></li>
 				<li><a href="methodology.shtml">Methodology</a></li>
 			</ul>
 		</li>
-		<li><a href="#">Our Team</a>
-			<ul>
-				<li><a href="members.shtml">Members</a></li>
-				<li><a href="responsibilities.shtml">Responsibilities</a></li>
-			</ul>
-		</li>
+		<li><a href="members.shtml">Our Team</a></li>
 		<li><a href="artifacts.shtml">Artifacts</a></li>
-		<li><a href="protosite.shtml">Protosite</a>
-			<ul>
-				<li><a href="../persius/thenetprotosite/index.html">thenet.ca redesigned</a></li>
-				<li><a href="#">Page 2</a></li>
-				<li><a href="#">Page 3</a></li>
-				<li><a href="#">Page 4</a></li>
-			</ul>
-		</li>
+		<li><a href="../persius/thenetprotosite/index.shtml">Protosite</a></li>
 		<li><a href="sitemap.shtml">Sitemap</a></li>
 		<li><a href="rationale.shtml">Rationale</a></li>
 	</ul>

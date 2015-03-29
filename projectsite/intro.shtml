@@ -23,40 +23,57 @@
 <main>
 <div class="twelve columns">
 
-<h2>This is our Intro Page Content</h2>
-<p>Requirements
-The COMP 1950 owner (Alistair Calder) would like the web site redesigned in order to better meet the needs of students. The website owner has contracted your group, as students of the class, to act as contractors for this project
+<h2>Introduction to the Project</h2>
+<h3>Overall Requirements</h3> 
+<p>The COMP 1950 owner and instructor (Alistair Calder) would like the current web site redesigned in order to better meet the needs of students. We (Team Persius) have been contracted to provide a redesigned concept for the website.  This work also constitutes our final assignment as students enrolled in the winter 2015 COMP 1950 class.  The project results will be delivered by construction of a website, which will be turned over to Alistair as our final assignment.</p>   
+<p>There is no guarantee that our customer, Alistair, will use our concept.  However, we can guarantee that our concept will provide ideas and result in feedback to Alistair, from our and other students point of view.</p>
 
-Project Goals
+<h3>COMP 1950 Project (Final Assignment) Goals</h3>
+<ol>
+    <li>Students must have easy access to notes, examples and other information</li>
 
-    Students must have easy access to notes, examples and other information
-    The site should reflect the aims of the course: Standards compliant web development, CSS, HTML, Methodology-driven design, etc
-    Think outside the box - don’t just copy the current design. Look around at other sites and use your creativity. But - be realistic! Make your suggestions something that can work
-    If you have questions that will further refine your own direction, ask the owner of the site for details Think about this project in context of the Methodology discussion that happened in class and the readings for week 8
+    <li>As the project is intended to also practice the skills we have learned on the COMP1950 Course, the project site should reflect the aims of the course:</li> 
+	    <ul>
+	    	<li>Standards compliant web development</li>
+	    	<li>Valid CSS</li>
+	    	<li>Valid HTML5</li>
+	    	<li>Methodology-driven design</li>
+	    	<li>inclusion of a referer link to allow easy validation of each page on our project site</li>
+	    	<li>Other applicable skills learned on the course</li>
+	    </ul>
+	      <li>Students must have easy access to notes, examples and other information</li>
 
-Deliverables
+</ol>
 
-For this project, you have been contracted to provide a protosite and supporting documents for the proposed website Your deliverables are going to be:
-
-    A web site created for this project that describes the project (similar to this example sitemap) and links to various artifacts. This is generally known as a meta site.
-    An Introduction page that describes the project and the members of the team. This page should also list what each team member actually did during the project
-    A proto-site that has at least three of the main pages mocked up. The home page, a lecture page and a blog page are required, others as necessary.
-    The blog page can either be news, or a blog or whatever you think would make for timely news. You must use Tumblr for this, and make your template match whatever you come up with for the rest of the site.
-    Wireframe(s) of the major sections of the site (Example lecture page) that you used to design the protosite (done in HTML, Word or Visio). These can also be done by using paper prototypes (scanned) or just using a low-tech solution like Word (make boxes in Drawing mode) or HTML (using simple tables)
-    Include descriptions of what is included in each content area
-    Sitemap (Example sitemap) (HTML, Word or Visio)
-    Rationale page - this is the most important page in your site. This is where you describe why you chose to build the site in the way you have proposed. Make sure you agreee on this in your group!
-    All of this should be presented in an HTML compliant web site with CSS-based Navigation
-
-Teamwork
-
-This project will require work from all members of your team!
-Validation
-
-    All content must be valid HTML5
-    All presentation must be valid CSS
-    Add a referer link on each page to validate: http://validator.w3.org/</p>
-
+<h3>Deliverables</h3>
+<ol>
+	<li>a project site (generally known as a meta site)</li>
+		<ul>
+			<li>web site created for this project that describes the project</li>
+				<ul>
+					<li>Introduction page that describes the project and the members of the team</li>
+					<li>Roles, responsibilities, and work completed by each team memberm</li>
+				</ul>
+			<li>links to various artifacts produced</li>
+				<ul>
+					<li>Wireframe(s) of the major sections of the site (Example lecture page) that were used to design the protosite (done in HTML, Word or Visio).</li> 
+		    	<li>Descriptions of what is included in each content area</li>
+	    	</ul>
+    <li>Sitemap</li>
+		</ul>
+	<li>supporting documents for the proposed, redesigned, COMP1950 website</li>
+	<li>A proto-site that has at least three of the main pages mocked up</li>
+	<ul>
+		<li>home page</li>
+		<li>a lecture page</li>
+		<li>blog page (<b>Tumblr</b>&nbsp;must be used)</li>
+		<li>Other pages (optional)</li>
+	</ul>
+	<li>Rationale page</li>
+		<ul>
+		<li>describes why we have made the various design decisions that are being proposed by our team for the new COMP 1950 website</li>
+	</ul>
+</ol>
 </div>  <!-- /.twelve.columns -->
 </main>
 </div>  <!-- /.row -->

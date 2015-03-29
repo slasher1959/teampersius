@@ -4,11 +4,28 @@
 <head>
 <title>Comp1950 - Team Persius Project Site</title>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<link rel="stylesheet" href="styles/normalize.css" media="all">  <!-- reset css -->
-<link rel="stylesheet" href="styles/skeleton.css" media="screen">  <!-- framework css -->
-<link rel="stylesheet" href="styles/mainstyles.css" media="screen"> <!-- main styles -->
+
+<!--#include file="commonlinkedfiles.inc" -->
+
+<link rel="stylesheet" href="styles/members.css" media="screen"> <!-- page specific styles -->
+
 <!-- <link rel="stylesheet" href="styles/mainstyles_exp.css" media="screen"> <!-- main styles playArea -->
 <link rel="stylesheet" href="styles/printstyles.css" media="print"> <!-- print styles -->
+<script src="thenetprotosite/js/jquery-1.11.2.min.js"></script>
+<script>
+$(document).ready(function(){
+	$(".projresps").hide();
+	$("#eddieresp").click(function(){
+		$("#eddieresplist").slideToggle();
+	});
+	$("#rayresp").click(function(){
+		$("#rayresplist").slideToggle();
+	});
+	$("#johnresp").click(function(){
+		$("#johnresplist").slideToggle();
+	});
+});
+</script>
 </head>
 
 <body>
@@ -19,21 +36,96 @@
 
 <!--#include file="headerandnav.inc" -->
 
-<div class="row">
 <main>
+<div class="row">
+
 <div class="twelve columns">
 
 <h2>These are the brilliant, and might we add handsome, members of our team</h2>
-<p>
-<img alt="Eduardo &quot;Eddie&quot; Santos" src="images/about_me_eddie.jpg"></p>
-<p><img alt="Ray Sit" src="images/profile_ray.jpg"></p>
-<p>
-<img alt="John Elash" height="480" src="/images/doctorevil.jpg" width="640"></p>
-<p></p>
-
 </div>  <!-- /.twelve.columns -->
-</main>
 </div>  <!-- /.row -->
+
+<div class="row membersrow">
+<div class="four columns">
+<p>
+<img id="eddieimage" alt="Eduardo &quot;Eddie&quot; Santos" src="images/about_me_eddie.jpg"></p>
+</div> <!-- /.four.columns -->
+<div class="eight columns">
+<p>Eddie worked as a software QA analyst for four years. After taking some courses at BCIT, Eddie transitioned into software development, and is currently working as a Java developer for a market data provider</p>
+<p>Prior to joining team Persius, Eddie's web development experience occurred in university back in the early 2000s and via completing the BCIT COMP1850 course.   Eddie consistently strives to create more professional looking and well-designed web pages. </p>
+<ul>
+	<li><a href ="#eddieimage" id="eddieresp">Eddie's Project Responsibilities</a></li>
+	<ul class="projresps" id="eddieresplist">
+		<li>Web Review</li>
+		<li>HW Review</li>
+		<li>Tools</li>
+		<li>Homework</li>
+	</ul>
+</ul>
+</div> <!-- /.eight.columns -->
+</div> <!-- /.row -->
+
+<div class="row  membersrow">
+<div class="four columns">
+<p><img id="rayimage" alt="Ray Sit" src="images/profile_ray.jpg"></p>
+</div> <!-- /.four.columns -->
+<div class="eight columns">
+<p>Ray has a strong Software Development background. Currently, Ray is writing business applications for iOS (iPhone/iPad) but has also dabbled in Android development from time to time.  Throughout Ray's career, he has migrated toward learning more about Web Development and has joined Team Persius in order to allow his Web Development passion to be fully challenged</p>
+<p>
+Ray has recent experience with HTML layout integration into e-mail messages.  Ray is also our news blog expert, and he proudly flaunts his knowledge in this area on behalf of Team Persius!   Despite these qualifications, don't be surprise if you hear Ray deny having any Web Development skills prior to his enrolling in COMP 1950 and joining Team Persius...yeah right</p>
+<ul>
+	<li><a href ="#rayimage" id="rayresp">Ray's Project Responsibilities</a></li>
+	<ul class="projresps" id="rayresplist">
+		<li>Web Review</li>
+		<li>HW Review</li>
+		<li>Tools</li>
+		<li>Homework</li>
+	</ul>
+</ul>
+
+</div> <!-- /.eight.columns -->
+</div> <!-- /.row -->
+
+<div class="row  membersrow">
+<div class="four columns">
+<p>
+<img id="johnimage" alt="John Elash" src="images/johnelash.jpg"></p>
+</div>  <!-- /.four.columns -->
+<div class="eight columns">
+<p>John is currently employed at Fraser Health Authority as an Information Management Project Manager.   He is part of the IM Project Management Office and is a certified Project Management Professional.  He is currently managing the Windows XP to Windows 7 upgrade and responsible for the deployment of approximately 13,100 computers for FHA.  Prior to that, John worked with TELUS Corporation for just over 26 years and was a project manager or manager for about 15 of those years.  He brings over 25 years of information technology experience in various technical and management roles, to Team Persius</p>
+<p>John's practical Web Development experience consists of developing a handful of small business sites for his friends.  He acquired basic Web Development skills thru his attending a series of part time classes at BCIT, all within the last 18 months</p>
+<ul>
+	<li><a href ="#johnimage" id="johnresp">John's Project Responsibilities</a></li>
+	<ul class="projresps" id="johnresplist">
+		<li>Web Review</li>
+		<li>HW Review</li>
+		<li>Tools</li>
+		<li>Homework</li>
+	</ul>
+</ul>
+
+</div> <!-- /.eight.columns -->
+</div> <!-- /.row -->
+
+<div class="row  membersrow">
+<div class="twelve columns">
+<h3>To download or view a PDF version of the full plan click on the diagram below (NOTE: an ADOBE Reader Plug-in is needed to view this file directly in your browser)</h3>
+<a href="documents/comp1950finalprojectplan.pdf"><img id="completeprojplan" alt="complete project plan" src="images/comp1950mainbuildplansiteversionthumb.jpg"></a>
+</div>  <!-- /.twelve.columns -->
+
+</div> <!-- /.row -->
+
+
+<div class="row  membersrow">
+<div class="twelve columns">
+<h3>Team Member's Key Assignments</h3>
+<p>
+<img id="projectassignments" alt="project assignments" src="images/comp1950mainbuildplansiteversion.jpg"></p>
+</div>  <!-- /.twelve.columns -->
+
+</div> <!-- /.row -->
+
+</main>
 
 <!--#include file="footer.inc" -->
 
