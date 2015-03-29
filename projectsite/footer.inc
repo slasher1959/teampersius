@@ -2,7 +2,8 @@
 <footer>
 <div class="twelve columns">
 
-<p>Footer Info Placed here</p>
+<p>Copyright &copy; BCIT | Created by Team Persius</p>
+
 
 </div>  <!-- /.twelve.columns -->
 </footer>
