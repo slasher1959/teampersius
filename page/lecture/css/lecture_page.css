@@ -1,0 +1,24 @@
+pre, blockquote, dl, figure, table, p, ul, ol, form, li, h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 10px;
+}
+
+h1#agenda{
+	margin-top: 0px;
+}
+
+div#right_content {
+	padding-right: 10px;
+}
+
+.highlight .err {
+	color: #A00;
+	background-color: #FAA;
+}
+
+h1[name], h2[name]{
+	color: #AC4142;
+}

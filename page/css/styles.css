@@ -12,7 +12,9 @@ h1, h2, h3, h4, h5, h6 {
 	color: #262626;
 	letter-spacing: -0.025rem;
 }
-
+img {
+	max-width: 100%;
+}
 div.container {
 	background-color: #FFFFFF;
 	padding: 0px;
@@ -56,7 +58,7 @@ nav a:link {
 	font-family: "Source Sans Pro",Georgia,"Times New Roman",serif;
 	font-weight: 400;
 	text-decoration: none;
-	color: #003471;
+	color: #515151;
 	letter-spacing: 0.125em;
 }
 
@@ -131,5 +133,3 @@ div#left_nav li{
 	padding-bottom: 0.5em;
 	border-top: 1px solid #515151;
 }
-
-

@@ -2,10 +2,10 @@
 			<ul>
 				<li><a href ="#" id="lecture1">Lecture 1</a></li>
 				<ul class="sublist" id="sublist1">
-					<li><a href ="http://teams.thenet.ca/persius/thenetprotosite/lecture#web-review"">Web Review</a></li>
-					<li><a href ="http://teams.thenet.ca/persius/thenetprotosite/lecture#homework-review">HW Review</a></li>
-					<li><a href ="http://teams.thenet.ca/persius/thenetprotosite/lecture#browser-tools">Tools</a></li>
-					<li><a href ="http://teams.thenet.ca/persius/thenetprotosite/lecture#homework"">Homework</a></li>
+					<li><a href ="#web-review"">Web Review</a></li>
+					<li><a href ="#homework-review">HW Review</a></li>
+					<li><a href ="#browser-tools">Tools</a></li>
+					<li><a href ="#homework"">Homework</a></li>
 				</ul>
 				<li><a href ="#" id="lecture2">Lecture 2</a></li>
 				<ul class="sublist" id="sublist2">
