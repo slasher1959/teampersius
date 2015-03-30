@@ -31,4 +31,6 @@ $(document).ready(function(){
 		$("#remove-class").click(function(){
 			$("#heading").removeClass("addClass");	
 		});
+
+		$("#bottom_nav").slideToggle();	
 });
