@@ -18,7 +18,7 @@
 		<!--#include file = "top_nav.inc"-->
 		<div class = "rows"> <!--the whole area below the search bar is 1 row-->
 		<!--#include file = "left_nav.inc"-->
-						<div id="right_content" class = "ten columns">
+		<div id="right_content" class = "ten columns">
 			<h1 id="agenda">Agenda</h1>
 
 			<ul>
@@ -31,7 +31,7 @@
 				<li>Assignment &amp; Homework</li>
 			</ul>
 
-			<h2 id="web-review-reminders" name="web-review">Web review: reminders</h2>
+			<h2 id="web-review-reminders"><a name="web-review">Web review: reminders</a></h2>
 
 			<p>There are a few things that bear reminding:</p>
 
@@ -49,7 +49,7 @@
 				<li>default page: index.htm, index.html or index.shtml (or whatever your server default is)</li>
 			</ul>
 
-			<h2 id="homework-review" name="homework-review">Homework review</h2>
+			<h2 id="homework-review"><a name="homework-review">Homework review</a></h2>
 
 			<p>As this is a web development course, let’s talk a bit about coding patterns &amp; behaviour.</p>
 
@@ -64,7 +64,7 @@
 				<li>Opening tags unnecessary</li>
 			</ul>
 
-			<h2 id="browser-tools" name="browser-tools">Browser Tools</h2>
+			<h2 id="browser-tools"><a name="browser-tools">Browser Tools</a></h2>
 
 			<h3 id="lots-of-options">Lots of options</h3>
 
@@ -92,7 +92,7 @@
 			<p class="message">While we will look at Chrome and Safari, the focus will be Firefox in COMP1950 so that we are all working from the same platform.</p>
 
 			<p><strong>Remember</strong>: to check in all browsers when taking a look at your site for production.</p>
-			<h1 name="homework">Week Two Homework</h1>
+			<h1><a name="homework">Week Two Homework</a></h1>
 			<h2 id="create-two-realtor-pages">Create Two Realtor Pages</h2>
 
 			<p>You will create the same page, but twice: One in <strong>XHTML Strict</strong> and the other using <strong>HTML5</strong></p>
@@ -136,6 +136,7 @@
 				<li><strong>HTML5</strong> -  Review what we discussed to day about HTML5 and be sure to include tags from HTML5</li>
 			</ul>
 		</div> <!--/#right_content-->
+		</div> <!-- /.row-->
 	</div> <!-- /.container-->
 </body>
 </html>

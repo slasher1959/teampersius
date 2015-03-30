@@ -143,6 +143,21 @@ div#left_nav {
 	height: 0px;
 }
 
+div#right_content {
+	width: 96%
+}
+
+div#left_nav a:link {
+	font-size: 1em;
+}
+
+@media (min-width: 860px) {
+	div#left_nav a:link {
+		font-size: 1.25em;
+	}
+}
+
+
 @media (min-width: 800px) {
 	div#left_nav {
 	visibility: visible;
@@ -151,6 +166,10 @@ div#left_nav {
 
 	li#lecture_link {
 	display: none;
+	}
+	
+	div#right_content {
+	width: 82.6667%;
 	}
 }
 

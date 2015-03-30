@@ -19,6 +19,6 @@ div#right_content {
 	background-color: #FAA;
 }
 
-h1[name], h2[name]{
+a[name]{
 	color: #AC4142;
 }
