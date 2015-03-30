@@ -1,1 +1,13 @@
-﻿
+﻿.five.columns figure {
+	width: 90%;
+}
+/* #alistairnow {
+	border-top:thin;
+	border-top-style: dotted;
+} */
+.four.columns img {
+	width: 80%;
+}
+#alistairnowpar {
+	text-align: center;
+}

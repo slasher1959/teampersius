@@ -4,7 +4,7 @@
 
 <div class="two columns" id="headerlogo">
 
-<img src="images/ed2_Prototype.jpg" alt="A Persius Prototype">
+<a href="index.shtml"><img src="images/ed2_Prototype.jpg" alt="A Persius Prototype"></a>
 
 </div>  <!-- /.three.columns -->
 <div class="ten columns" id="companyintro">

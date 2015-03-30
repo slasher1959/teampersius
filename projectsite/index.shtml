@@ -21,23 +21,35 @@
 
 <div class="row">
 <main>
-<div class="twelve columns">
+<div class="seven columns">
 
 <h2>Project Introduction</h2>
-<p>Our team members have been enrolled in a BCIT part time course,&nbsp;<a href="http://www.bcit.ca/study/courses/comp1950" title="COMP 1950">COMP1950</a>&nbsp;The course is titled Web Development and Design 2.</p>
+<p>Our team members have been enrolled in a BCIT part time course,&nbsp;<a href="http://www.bcit.ca/study/courses/comp1950" title="COMP 1950">COMP1950</a>.&nbsp;The course is titled Web Development and Design 2.</p>
 <p>For our final assignment, course attendees were grouped into teams, by our instructor, Alistair Calder.  The teams were assigned a project that was to produce a concept describing how the current course website used by Alistair could be redesigned to better suit his need as well as the students.</p>
 <p>This website is the result of completing that final project assignment.</p>
-
+</div> <!-- /.seven.columns -->
+<div class="five columns">
 <figure><img alt="Alistair Calder" src="images/alistair_calder.jpg" >
 <figcaption>This is Alistair on the first night of our course</figcaption>
 </figure>
-<figure><img alt="Alistair Calder" src="images/alistair_calder_later.jpg" >
-<figcaption>...and this is Alistair after week 11 of our course!.   Hang in there Alistair, you're almost thru with us</figcaption>
-
-</figure>
-</div>  <!-- /.twelve.columns -->
+</div>  <!-- /.five.columns -->
 </main>
 </div>  <!-- /.row -->
+
+<div class="row addtopborder">
+<div class="four columns"><p>&nbsp;</p></div> <!-- /.four.columns just used for spacing_layout -->
+<div class="four columns">
+	<figure><img alt="Alistair Calder" src="images/alistair_calder_later.jpg" >
+	</figure>
+</div> <!-- /.four.columns -->
+<div class="four columns"><p>&nbsp;</p></div> <!-- /.four.columns just used for spacing_layout -->
+</div> <!-- /.row -->
+
+<div class="row">
+<div class="twelve columns">
+	<p id="alistairnowpar">...and this is Alistair after week 11 of our course!. Hang in there Alistair, you're almost thru with us</p>
+</div> <!-- /.twelve.columns -->
+</div> <!-- /.row -->
 
 <!--#include file="footer.inc" -->
 

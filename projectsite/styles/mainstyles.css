@@ -58,6 +58,9 @@ nav ul li ul {
 nav ul li:hover ul {
 	visibility: visible
 }
+h2, h3 {
+  text-align:  center;
+}
 main {
     position: relative;
     top: -35px;
@@ -66,9 +69,24 @@ footer .twelve.columns {
   background-color: #808080;
   color: #FFFFFF;
 }
+footer .twelve.columns p {
+	text-align: center;
+}
 #footerbackground {
   min-height: 25px;
   position: absolute;
   width: 100%;
   background-image: url('../images/background_grey.png');
+}
+.addleftborder {
+	border-left:	thin;
+	border-left-style: dotted;
+}
+.addrightborder {
+	border-right:	thin;
+	border-right-style: dotted;
+}
+.addtopborder {
+	border-top:thin;
+	border-top-style: dotted;
 }

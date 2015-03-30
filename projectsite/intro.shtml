@@ -23,11 +23,11 @@
 <div class="twelve columns">
 
 <h2>Introduction to the Project</h2>
-<h3>Overall Requirements</h3> 
+<h3 class="addtopborder">Overall Requirements</h3> 
 <p>The COMP 1950 owner and instructor (Alistair Calder) would like the current web site redesigned in order to better meet the needs of students. We (Team Persius) have been contracted to provide a redesigned concept for the website.  This work also constitutes our final assignment as students enrolled in the winter 2015 COMP 1950 class.  The project results will be delivered by construction of a website, which will be turned over to Alistair as our final assignment.</p>   
 <p>There is no guarantee that our customer, Alistair, will use our concept.  However, we can guarantee that our concept will provide ideas and result in feedback to Alistair, from our and other students point of view.</p>
 
-<h3>COMP 1950 Project (Final Assignment) Goals</h3>
+<h3 class="addtopborder">COMP 1950 Project (Final Assignment) Goals</h3>
 <ol>
     <li>Students must have easy access to notes, examples and other information</li>
 
@@ -44,7 +44,7 @@
 
 </ol>
 
-<h3>Deliverables</h3>
+<h3 class="addtopborder">Deliverables</h3>
 <ol>
 	<li>a project site (generally known as a meta site)</li>
 		<ul>

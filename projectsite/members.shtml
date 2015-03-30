@@ -41,14 +41,14 @@ $(document).ready(function(){
 
 <div class="twelve columns">
 
-<h2>These are the brilliant, and might we add handsome, members of our team</h2>
+<h2>Introducing the Members of Team Persius</h2>
 </div>  <!-- /.twelve.columns -->
 </div>  <!-- /.row -->
 
 <div class="row membersrow">
 <div class="four columns">
-<p>
-<img id="eddieimage" alt="Eduardo &quot;Eddie&quot; Santos" src="images/about_me_eddie.jpg"></p>
+<figure>
+<img id="eddieimage" alt="Eduardo &quot;Eddie&quot; Santos" src="images/about_me_eddie.jpg"><figcaption>Eddie Santos</figcaption></figure>
 </div> <!-- /.four.columns -->
 <div class="eight columns">
 <p>Eddie worked as a software QA analyst for four years. After taking some courses at BCIT, Eddie transitioned into software development, and is currently working as a Java developer for a market data provider</p>
@@ -56,10 +56,21 @@ $(document).ready(function(){
 <ul>
 	<li><a href ="#eddieimage" id="eddieresp">Eddie's Project Responsibilities</a></li>
 	<ul class="projresps" id="eddieresplist">
-		<li>Web Review</li>
-		<li>HW Review</li>
-		<li>Tools</li>
-		<li>Homework</li>
+		<li>Site Assessments</li>
+		<ol>
+			<li>Code School</li>
+			<li>MIT Open Course Ware</li>
+		</ol>
+		<li>Project Plan input into task creation, estimates, and timelines</li>
+		<li>Creation of Alternate Wireframes</li>
+		<li>Design and setup of Style, Header, Footer and Navigation of Protosite</li>
+		<li>Protosite Page Construction and Content Development for Mockup Pages</li>
+		<ol>
+			<li>Home Page</li>
+			<li>Lecture Page</li>
+		</ol>
+		<li>Participated in all critical feedback sessions, design choices, standards setting, and other team decisions</li>
+		<li>Input into content of Rationale Page</li>
 	</ul>
 </ul>
 </div> <!-- /.eight.columns -->
@@ -67,7 +78,7 @@ $(document).ready(function(){
 
 <div class="row  membersrow">
 <div class="four columns">
-<p><img id="rayimage" alt="Ray Sit" src="images/profile_ray.jpg"></p>
+<figure><img id="rayimage" alt="Ray Sit" src="images/profile_ray.jpg"><figcaption>Ray Sit</figcaption></figure>
 </div> <!-- /.four.columns -->
 <div class="eight columns">
 <p>Ray has a strong Software Development background. Currently, Ray is writing business applications for iOS (iPhone/iPad) but has also dabbled in Android development from time to time.  Throughout Ray's career, he has migrated toward learning more about Web Development and has joined Team Persius in order to allow his Web Development passion to be fully challenged</p>
@@ -76,10 +87,19 @@ Ray has recent experience with HTML layout integration into e-mail messages.  Ra
 <ul>
 	<li><a href ="#rayimage" id="rayresp">Ray's Project Responsibilities</a></li>
 	<ul class="projresps" id="rayresplist">
-		<li>Web Review</li>
-		<li>HW Review</li>
-		<li>Tools</li>
-		<li>Homework</li>
+		<li>Site Assessments</li>
+		<ol>
+			<li>Treehouse</li>
+			<li>eDX</li>
+		</ol>
+		<li>Project Plan input into task creation, estimates, and timelines</li>
+		<li>Selection of and promotion of Wireframe creation tool (Balsamiq)</li>
+		<li>Creation of 75% of initial Wireframes</li>
+		<li>Design and setup of Tumblr News site</li>
+		<li>Creation of wireframe versions for Artifacts Page</li>
+		<li>Creation of Protosite Instructor Feedback Page</li>
+		<li>Participated in all critical feedback sessions, design choices, standards setting, and other team decisions</li>
+		<li>Input into content of Rationale Page</li>
 	</ul>
 </ul>
 
@@ -88,8 +108,8 @@ Ray has recent experience with HTML layout integration into e-mail messages.  Ra
 
 <div class="row  membersrow">
 <div class="four columns">
-<p>
-<img id="johnimage" alt="John Elash" src="images/johnelash.jpg"></p>
+<figure>
+<img id="johnimage" alt="John Elash" src="images/johnelash.jpg"><figcaption>John Elash</figcaption></figure>
 </div>  <!-- /.four.columns -->
 <div class="eight columns">
 <p>John is currently employed at Fraser Health Authority as an Information Management Project Manager.   He is part of the IM Project Management Office and is a certified Project Management Professional.  He is currently managing the Windows XP to Windows 7 upgrade and responsible for the deployment of approximately 13,100 computers for FHA.  Prior to that, John worked with TELUS Corporation for just over 26 years and was a project manager or manager for about 15 of those years.  He brings over 25 years of information technology experience in various technical and management roles, to Team Persius</p>
@@ -97,26 +117,44 @@ Ray has recent experience with HTML layout integration into e-mail messages.  Ra
 <ul>
 	<li><a href ="#johnimage" id="johnresp">John's Project Responsibilities</a></li>
 	<ul class="projresps" id="johnresplist">
-		<li>Web Review</li>
-		<li>HW Review</li>
-		<li>Tools</li>
-		<li>Homework</li>
+		<li>Acted as Chairperson for Team Persius</li>
+		<li>Project Plan creation and management; Scheduling meetings; GitHub Repository Setup</li>
+		<li>Site Assessments</li>
+		<ol>
+			<li>W3 Schools</li>
+			<li>UX Magazine</li>
+		</ol>
+		<li>Creation of initial News page Wireframe</li>
+		<li>Design and setup of Style, Header, Footer and Navigation of Project Meta Site</li>
+		<li>Project Meta Site Page Construction and Content Development for:</li>
+		<ol>
+			<li>Home Page</li>
+			<li>Project Page</li>
+			<li>Our Team Page</li>
+			<li>Site Map Page</li>
+		</ol>
+		<li>Creation of Protosite Assignment Discussion Page</li>
+		<li>Participated in all critical feedback sessions, design choices, standards setting, and other team decisions</li>
+		<li>Input into content of Rationale Page</li>
 	</ul>
 </ul>
 
 </div> <!-- /.eight.columns -->
 </div> <!-- /.row -->
 
-<div class="row  membersrow">
-<div class="twelve columns">
-<h3>To download or view a PDF version of the full plan click on the diagram below (NOTE: an ADOBE Reader Plug-in is needed to view this file directly in your browser)</h3>
+<div class="row projectplanrow">
+<div class="eight columns">
+<h5>To download or view a PDF version of the full plan click on the diagram to the right</h5>
+<p>(<span>NOTE:</span> an ADOBE Reader Plug-in is needed to view this file directly in your browser)</p>
+</div> <!-- /.eight.columns -->
+<div class="four columns">
 <a href="documents/comp1950finalprojectplan.pdf"><img id="completeprojplan" alt="complete project plan" src="images/comp1950mainbuildplansiteversionthumb.jpg"></a>
-</div>  <!-- /.twelve.columns -->
+</div>  <!-- /.four.columns -->
 
 </div> <!-- /.row -->
 
 
-<div class="row  membersrow">
+<div class="row projectplanrow">
 <div class="twelve columns">
 <h3>Team Member's Key Assignments</h3>
 <p>

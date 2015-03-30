@@ -25,7 +25,7 @@
 </div> <!-- /.row -->
 
 <div class="row">
-<div class="six columns">
+<div class="six columns addrightborder">
 <ol>
 	<li >Initial Objectives setting</li>
 	<li >Primary purpose (business)</li>
@@ -77,7 +77,7 @@
 </div>  <!-- /.six.columns -->
 </div>  <!-- /.row -->
 
-<div class="row">
+<div class="row addtopborder">
 <div class="twelve columns">
 <h2>Summary of Methodology We Used for This Project</h2>
 
@@ -112,7 +112,7 @@
 </div>  <!-- /.twelve.columns -->
 </div>  <!-- /.row -->
 
-<div class="row">
+<div class="row addtopborder">
 <h3>Overview of the methodology, the steps we followed in completing the project:</h3>
 <img src="images/comp1950_project_siteversion.jpg" accesskey="Project Methodology Overview Diagram">
 <div class="twelve columns">
