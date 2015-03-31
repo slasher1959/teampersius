@@ -43,3 +43,28 @@ div#footer_right_part p{
 	
 }
 
+/**RESPONSIVE DESIGN STUFF **/
+div#about_instructor {
+	width: 70%;
+}
+
+div#footer_picture, img#instructor_pic {
+	display: none;
+}
+div#social_icons>a>img {
+	max-width: 25%
+}
+
+@media (min-width: 800px) {
+	div#about_instructor {
+		width: 56.6667%;
+	}
+
+	div#footer_picture, img#instructor_pic {
+		display: inline;
+	}
+
+	div#social_icons>a>img {
+	max-width: 100%
+	}
+}

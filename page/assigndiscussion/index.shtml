@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="../js/jquery-1.11.2.min.js"></script>
+<script src="../js/left_nav.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/skeleton.css">
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="../lecture/css/lecture-list_page.css">
+<title>COMP 1950 - Web Development 2</title>
+</head>
+
+<body>
+	<div class="container">
+		<!--#include file = "banner.inc"-->
+		<!--#include file = "top_nav.inc"-->
+	
+	<div class="row">
+	<div class="twelve columns">
+		<h3>Week 1 Discussion Page</h3>
+	</div>	<!-- /.twelve.columns -->
+	</div> <!-- /.row -->	
+	
+	<div class="row">
+	<div class="twelve columns">
+	  <form method="post">
+		<textarea cols="80" name="TextArea1" rows="40"></textarea>
+		</form>
+	</div> 	<!-- /.twelve columns -->
+	</div>  <!-- /.row -->
+	
+	<div class="row">
+	<div class="ten columns">
+		<form method="post">
+		<textarea cols="80" name="TextArea1" rows="5"></textarea>
+		</form>
+	</div> 	<!-- /.ten.columns -->
+	<div class="two columns">
+		<button type="submit">Post</button>
+	</div>	<!-- /.two.columns -->
+	</div>	<!-- /.row -->
+	
+	</div> <!-- /.container-->
+</body>
+</html>

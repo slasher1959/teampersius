@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/left_nav.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/styles.css">
+<title>COMP 1950 - Web Development 2</title>
+</head>
+
+<body>
+	<div class="container">
+		<!--#include file = "banner.inc"-->
+		<!--#include file = "top_nav.inc"-->
+		<div class = "rows"> <!--the whole area below the search bar is 1 row-->
+        <!--#include file = "left_nav.inc"-->
+			<div id="right_content" class = "ten columns">
+			<h1>Sample h1</h1>
+			<h2>Sample h2</h2>
+			<h3>Sample h3</h3>
+			<h4>Sample h4</h4>
+			<h5>Sample h5</h5>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id lectus ex.
+			Maecenas aliquam justo in nisl blandit maximus. Vestibulum ante ipsum primis
+			in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas quis quam
+			enim. Donec dignissim sodales magna et scelerisque. Donec id ipsum vel sem
+			consequat imperdiet. Fusce accumsan risus massa, et sollicitudin ante accumsan
+			vitae. Etiam interdum varius nisi ut ullamcorper. Etiam feugiat nibh dolor.
+			Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+			himenaeos. Ut gravida facilisis ultrices. Pellentesque posuere nibh vulputate
+			ex imperdiet porta.
+			</p>
+			<ul>
+				<li>item 1</li>
+				<li>item 2</li>
+				<li>item 3</li>
+			</ul>
+			<ol>
+				<li>item 1</li>
+				<li>item 2</li>
+				<li>item 3</li>
+			</ol>
+			</div><!--/#right_content-->
+		</div><!--./rows-->
+	</div> <!-- /.container-->
+</body>
+</html>

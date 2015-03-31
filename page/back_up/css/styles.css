@@ -6,8 +6,6 @@ html, body {
 	font-family: "Helvetica Neue", Helvetica, "Source Sans Pro",Helvetica,Arial,sans-serif;
 }
 
-
-
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Source Sans Pro",Georgia,"Times New Roman",serif;
 	font-weight: 400;
@@ -15,9 +13,6 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: -0.025rem;
 }
 
-img {
-	max-width: 100%;
-}
 div.container {
 	background-color: #FFFFFF;
 	padding: 0px;
@@ -61,7 +56,7 @@ nav a:link {
 	font-family: "Source Sans Pro",Georgia,"Times New Roman",serif;
 	font-weight: 400;
 	text-decoration: none;
-	color: #515151;
+	color: #003471;
 	letter-spacing: 0.125em;
 }
 
@@ -137,62 +132,4 @@ div#left_nav li{
 	border-top: 1px solid #515151;
 }
 
-/**RESPONSIVE DESIGN STUFF **/
-div#left_nav {
-	visibility: hidden;
-	height: 0px;
-}
 
-div#right_content {
-	width: 96%
-}
-
-div#left_nav a:link {
-	font-size: 1em;
-}
-
-@media (min-width: 860px) {
-	div#left_nav a:link {
-		font-size: 1.25em;
-	}
-}
-
-
-@media (min-width: 800px) {
-	div#left_nav {
-	visibility: visible;
-	height: 100%;
-	}
-
-	li#lecture_link {
-	display: none;
-	}
-	
-	div#right_content {
-	width: 82.6667%;
-	}
-}
-
-div#search_bar, div#search_bar form, div#search_bar input {
-	visibility: hidden;
-	height: 0px;
-	margin-bottom: 0px;
-}
-
-@media (min-width: 550px) {
-	div#search_bar, div#search_bar form,div#search_bar input  {
-	visibility: visible;
-	height: 100%;
-	margin-bottom: 1.5rem;
-	}
-}
-
-nav {
-	font-size: 1.3rem;
-}
-
-@media (min-width: 700px) {
-	nav {
-		font-size: 1.5rem;
-	}
-}
