@@ -120,7 +120,7 @@
 </div>  <!-- /.row -->
 </main>
 
-<!--#include file="footer.inc" -->
+<!--#include file="footer.shtml" -->
 
 </div> <!-- /.container -->
 <div id="footerbackground"></div>

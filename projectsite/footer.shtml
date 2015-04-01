@@ -1,0 +1,14 @@
+﻿<div class="row">
+<footer>
+<div class="twelve columns">
+
+<p>Copyright &copy; BCIT&nbsp; | &nbsp;Created by Team Persius</p>
+<p>
+<!--#config timefmt="%A %d %B, %Y" -->
+<!--#echo var="DATE_LOCAL" -->
+</p>
+
+
+</div>  <!-- /.twelve.columns -->
+</footer>
+</div>  <!-- /.row -->

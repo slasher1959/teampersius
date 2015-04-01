@@ -165,7 +165,7 @@ Ray has recent experience with HTML layout integration into e-mail messages.  Ra
 
 </main>
 
-<!--#include file="footer.inc" -->
+<!--#include file="footer.shtml" -->
 
 </div> <!-- /.container -->
 <div id="footerbackground"></div>

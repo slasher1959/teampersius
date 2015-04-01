@@ -6,7 +6,7 @@
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <!--#include file="commonlinkedfiles.inc" -->
 
-<!-- <link rel="stylesheet" href="styles/mainstyles_exp.css" media="screen"> <!-- main styles playArea -->
+<!-- <link rel="stylesheet" href="styles/mainstyles_exp.css" media="screen"> --> <!-- main styles playArea -->
 <link rel="stylesheet" href="styles/printstyles.css" media="print"> <!-- print styles -->
 </head>
 
@@ -31,7 +31,7 @@
 <ol>
     <li>Students must have easy access to notes, examples and other information</li>
 
-    <li>As the project is intended to also practice the skills we have learned on the COMP1950 Course, the project site should reflect the aims of the course:</li> 
+    <li>As the project is intended to also practice the skills we have learned on the COMP1950 Course, the project site should reflect the aims of the course:
 	    <ul>
 	    	<li>Standards compliant web development</li>
 	    	<li>Valid CSS</li>
@@ -40,44 +40,50 @@
 	    	<li>inclusion of a referer link to allow easy validation of each page on our project site</li>
 	    	<li>Other applicable skills learned on the course</li>
 	    </ul>
-	      <li>Students must have easy access to notes, examples and other information</li>
+	  </li>
+	  <li>Students must have easy access to notes, examples and other information</li>
 
 </ol>
 
 <h3 class="addtopborder">Deliverables</h3>
 <ol>
-	<li>a project site (generally known as a meta site)</li>
+	<li>a project site (generally known as a meta site)
 		<ul>
-			<li>web site created for this project that describes the project</li>
+			<li>web site created for this project that describes the project
 				<ul>
 					<li>Introduction page that describes the project and the members of the team</li>
 					<li>Roles, responsibilities, and work completed by each team memberm</li>
 				</ul>
-			<li>links to various artifacts produced</li>
+			</li>
+			<li>links to various artifacts produced
 				<ul>
 					<li>Wireframe(s) of the major sections of the site (Example lecture page) that were used to design the protosite (done in HTML, Word or Visio).</li> 
 		    	<li>Descriptions of what is included in each content area</li>
 	    	</ul>
-    <li>Sitemap</li>
+	   	</li>
+    	<li>Sitemap</li>
 		</ul>
+	</li>
 	<li>supporting documents for the proposed, redesigned, COMP1950 website</li>
-	<li>A proto-site that has at least three of the main pages mocked up</li>
-	<ul>
-		<li>home page</li>
-		<li>a lecture page</li>
-		<li>blog page (<b>Tumblr</b>&nbsp;must be used)</li>
-		<li>Other pages (optional)</li>
-	</ul>
-	<li>Rationale page</li>
+	<li>A proto-site that has at least three of the main pages mocked up
 		<ul>
-		<li>describes why we have made the various design decisions that are being proposed by our team for the new COMP 1950 website</li>
-	</ul>
+			<li>home page</li>
+			<li>a lecture page</li>
+			<li>blog page (<b>Tumblr</b>&nbsp;must be used)</li>
+			<li>Other pages (optional)</li>
+		</ul>
+	</li>
+	<li>Rationale page
+		<ul>
+			<li>describes why we have made the various design decisions that are being proposed by our team for the new COMP 1950 website</li>
+		</ul>
+	</li>
 </ol>
 </div>  <!-- /.twelve.columns -->
 </main>
 </div>  <!-- /.row -->
 
-<!--#include file="footer.inc" -->
+<!--#include file="footer.shtml" -->
 
 </div> <!-- /.container -->
 <div id="footerbackground"></div>

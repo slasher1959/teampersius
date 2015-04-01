@@ -7,7 +7,7 @@
 <!--#include file="commonlinkedfiles.inc" -->
 
 <link rel="stylesheet" href="styles/homepage.css" media="screen"> <!-- page specific style -->
-<!-- <link rel="stylesheet" href="styles/mainstyles_exp.css" media="screen"> <!-- main styles playArea -->
+<!-- <link rel="stylesheet" href="styles/mainstyles_exp.css" media="screen"> -->  <!-- main styles playArea -->
 <link rel="stylesheet" href="styles/printstyles.css" media="print"> <!-- print styles -->
 </head>
 
@@ -51,7 +51,7 @@
 </div> <!-- /.twelve.columns -->
 </div> <!-- /.row -->
 
-<!--#include file="footer.inc" -->
+<!--#include file="footer.shtml" -->
 
 </div> <!-- /.container -->
 <div id="footerbackground"></div>

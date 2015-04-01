@@ -50,6 +50,7 @@
 		<li><a href="sitemap.shtml">Sitemap</a></li>
 		<li><a href="rationale.shtml">Rationale</a></li>
 	</ul>
+	<a id="validator" href="http://validator.w3.org/check?uri=referer"><img src="images/w3c.png" alt="W3C Validator" title="W3C Validator"></a>
 </nav>
 </div>  <!-- /.twelve.columns -->
 </div>  <!-- /.row -->

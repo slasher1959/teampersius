@@ -58,6 +58,14 @@ nav ul li ul {
 nav ul li:hover ul {
 	visibility: visible
 }
+a#validator {
+  position: absolute;
+  right: 0px;
+  top: 1px;
+}
+a#validator img {
+	width: 40px;
+}
 h2, h3 {
   text-align:  center;
 }
@@ -77,6 +85,9 @@ footer .twelve.columns p {
   position: absolute;
   width: 100%;
   background-image: url('../images/background_grey.png');
+}
+footer .twelve.columns p {
+  margin-bottom:  0px;
 }
 .addleftborder {
 	border-left:	thin;

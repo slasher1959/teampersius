@@ -36,7 +36,7 @@ Mauris tortor nibh volutpat integer integer mattis, in nec arcu, integer turpis 
 </main>
 </div>  <!-- /.row -->
 
-<!--#include file="footer.inc" -->
+<!--#include file="footer.shtml" -->
 
 </div> <!-- /.container -->
 <div id="footerbackground"></div>
