@@ -1,0 +1,15 @@
+Rationale
+
+Bottom Navigation Bar
+
+ 
+
+The intention of the bottom navigation bar is to allow the user to both send e-mail to the instructor, and provide a brief introduction to the instructor. The Twitter, Facebook, and discussion forum buttons are also added to provide quick access to their respective social media. It was created as a “social hub” where the student can interact with the instructor, each other, and social media. Students may need to copy certain excerpt or code that they do not understand to the instructor. Therefore we decided to add the bottom navigation bar (containing the feedback mechanism) as a standard tool for each page, making it easier for students to copy-paste content of interest, without opening multi-instances of the website. The feedback box must provide adequate amount of space for the user to compose a detailed e-mail and hence, requires a large area of the screen. To slim down the interface we decided to hide the bottom navigation bar and present it to the user when “CONTACT” at the bottom of the page is clicked.
+
+TUMBLR PAGE
+
+ 
+
+The Tumblr page is designed to allow the instructor to post relevant news quickly and concisely. Typically the title is displayed on the left and the content is displayed on the right for each post. We’ve decided that supporting texts, images, videos, and quotes. We believe that these post types are most relevant to instructor and student interaction. Texts are needed to explain any news update. Pictures can be posted for any graphical description of concepts explained in class. Relevant tutorial videos can be posted to provide student more background information or practical examples. And quotes are supported to allow the instructor to inspire the young pupils with clever and philosophical statements. It was also designed around the standard page layout of the lecture, discussion and homepage so the user can browse Tumblr news and return to the homepage seamlessly.
+
+
