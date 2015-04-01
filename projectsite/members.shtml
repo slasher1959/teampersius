@@ -9,7 +9,7 @@
 
 <link rel="stylesheet" href="styles/members.css" media="screen"> <!-- page specific styles -->
 
-<!-- <link rel="stylesheet" href="styles/mainstyles_exp.css" media="screen"> <!-- main styles playArea -->
+<!-- <link rel="stylesheet" href="styles/mainstyles_exp.css" media="screen"> --> <!-- main styles playArea -->
 <link rel="stylesheet" href="styles/printstyles.css" media="print"> <!-- print styles -->
 <script src="thenetprotosite/js/jquery-1.11.2.min.js"></script>
 <script>
@@ -54,24 +54,27 @@ $(document).ready(function(){
 <p>Eddie worked as a software QA analyst for four years. After taking some courses at BCIT, Eddie transitioned into software development, and is currently working as a Java developer for a market data provider</p>
 <p>Prior to joining team Persius, Eddie's web development experience occurred in university back in the early 2000s and via completing the BCIT COMP1850 course.   Eddie consistently strives to create more professional looking and well-designed web pages. </p>
 <ul>
-	<li><a href ="#eddieimage" id="eddieresp">Eddie's Project Responsibilities</a></li>
-	<ul class="projresps" id="eddieresplist">
-		<li>Site Assessments</li>
-		<ol>
-			<li>Code School</li>
-			<li>MIT Open Course Ware</li>
-		</ol>
-		<li>Project Plan input into task creation, estimates, and timelines</li>
-		<li>Creation of Alternate Wireframes</li>
-		<li>Design and setup of Style, Header, Footer and Navigation of Protosite</li>
-		<li>Protosite Page Construction and Content Development for Mockup Pages</li>
-		<ol>
-			<li>Home Page</li>
-			<li>Lecture Page</li>
-		</ol>
-		<li>Participated in all critical feedback sessions, design choices, standards setting, and other team decisions</li>
-		<li>Input into content of Rationale Page</li>
-	</ul>
+	<li><a href ="#eddieimage" id="eddieresp">Eddie's Project Responsibilities</a>
+		<ul class="projresps" id="eddieresplist">
+			<li>Site Assessments
+				<ol>
+					<li>Code School</li>
+					<li>MIT Open Course Ware</li>
+				</ol>
+			</li>
+			<li>Project Plan input into task creation, estimates, and timelines</li>
+			<li>Creation of Alternate Wireframes</li>
+			<li>Design and setup of Style, Header, Footer and Navigation of Protosite</li>
+			<li>Protosite Page Construction and Content Development for Mockup Pages
+				<ol>
+					<li>Home Page</li>
+					<li>Lecture Page</li>
+				</ol>
+			</li>
+			<li>Participated in all critical feedback sessions, design choices, standards setting, and other team decisions</li>
+			<li>Input into content of Rationale Page</li>
+		</ul>
+	</li>
 </ul>
 </div> <!-- /.eight.columns -->
 </div> <!-- /.row -->
@@ -85,22 +88,24 @@ $(document).ready(function(){
 <p>
 Ray has recent experience with HTML layout integration into e-mail messages.  Ray is also our news blog expert, and he proudly flaunts his knowledge in this area on behalf of Team Persius!   Despite these qualifications, don't be surprise if you hear Ray deny having any Web Development skills prior to his enrolling in COMP 1950 and joining Team Persius...yeah right</p>
 <ul>
-	<li><a href ="#rayimage" id="rayresp">Ray's Project Responsibilities</a></li>
-	<ul class="projresps" id="rayresplist">
-		<li>Site Assessments</li>
-		<ol>
-			<li>Treehouse</li>
-			<li>eDX</li>
-		</ol>
-		<li>Project Plan input into task creation, estimates, and timelines</li>
-		<li>Selection of and promotion of Wireframe creation tool (Balsamiq)</li>
-		<li>Creation of 75% of initial Wireframes</li>
-		<li>Design and setup of Tumblr News site</li>
-		<li>Creation of wireframe versions for Artifacts Page</li>
-		<li>Creation of Protosite Instructor Feedback Page</li>
-		<li>Participated in all critical feedback sessions, design choices, standards setting, and other team decisions</li>
-		<li>Input into content of Rationale Page</li>
-	</ul>
+	<li><a href ="#rayimage" id="rayresp">Ray's Project Responsibilities</a>
+		<ul class="projresps" id="rayresplist">
+			<li>Site Assessments
+				<ol>
+					<li>Treehouse</li>
+					<li>eDX</li>
+				</ol>
+			</li>
+			<li>Project Plan input into task creation, estimates, and timelines</li>
+			<li>Selection of and promotion of Wireframe creation tool (Balsamiq)</li>
+			<li>Creation of 75% of initial Wireframes</li>
+			<li>Design and setup of Tumblr News site</li>
+			<li>Creation of wireframe versions for Artifacts Page</li>
+			<li>Creation of Protosite Instructor Feedback Page</li>
+			<li>Participated in all critical feedback sessions, design choices, standards setting, and other team decisions</li>
+			<li>Input into content of Rationale Page</li>
+		</ul>
+	</li>
 </ul>
 
 </div> <!-- /.eight.columns -->
@@ -115,28 +120,31 @@ Ray has recent experience with HTML layout integration into e-mail messages.  Ra
 <p>John is currently employed at Fraser Health Authority as an Information Management Project Manager.   He is part of the IM Project Management Office and is a certified Project Management Professional.  He is currently managing the Windows XP to Windows 7 upgrade and responsible for the deployment of approximately 13,100 computers for FHA.  Prior to that, John worked with TELUS Corporation for just over 26 years and was a project manager or manager for about 15 of those years.  He brings over 25 years of information technology experience in various technical and management roles, to Team Persius</p>
 <p>John's practical Web Development experience consists of developing a handful of small business sites for his friends.  He acquired basic Web Development skills thru his attending a series of part time classes at BCIT, all within the last 18 months</p>
 <ul>
-	<li><a href ="#johnimage" id="johnresp">John's Project Responsibilities</a></li>
-	<ul class="projresps" id="johnresplist">
-		<li>Acted as Chairperson for Team Persius</li>
-		<li>Project Plan creation and management; Scheduling meetings; GitHub Repository Setup</li>
-		<li>Site Assessments</li>
-		<ol>
-			<li>W3 Schools</li>
-			<li>UX Magazine</li>
-		</ol>
-		<li>Creation of initial News page Wireframe</li>
-		<li>Design and setup of Style, Header, Footer and Navigation of Project Meta Site</li>
-		<li>Project Meta Site Page Construction and Content Development for:</li>
-		<ol>
-			<li>Home Page</li>
-			<li>Project Page</li>
-			<li>Our Team Page</li>
-			<li>Site Map Page</li>
-		</ol>
-		<li>Creation of Protosite Assignment Discussion Page</li>
-		<li>Participated in all critical feedback sessions, design choices, standards setting, and other team decisions</li>
-		<li>Input into content of Rationale Page</li>
-	</ul>
+	<li><a href ="#johnimage" id="johnresp">John's Project Responsibilities</a>
+		<ul class="projresps" id="johnresplist">
+			<li>Acted as Chairperson for Team Persius</li>
+			<li>Project Plan creation and management; Scheduling meetings; GitHub Repository Setup</li>
+			<li>Site Assessments
+				<ol>
+					<li>W3 Schools</li>
+					<li>UX Magazine</li>
+				</ol>
+			</li>
+			<li>Creation of initial News page Wireframe</li>
+			<li>Design and setup of Style, Header, Footer and Navigation of Project Meta Site</li>
+			<li>Project Meta Site Page Construction and Content Development for:
+				<ol>
+					<li>Home Page</li>
+					<li>Project Page</li>
+					<li>Our Team Page</li>
+					<li>Site Map Page</li>
+				</ol>
+			</li>
+			<li>Creation of Protosite Assignment Discussion Page</li>
+			<li>Participated in all critical feedback sessions, design choices, standards setting, and other team decisions</li>
+			<li>Input into content of Rationale Page</li>
+		</ul>
+	</li>
 </ul>
 
 </div> <!-- /.eight.columns -->

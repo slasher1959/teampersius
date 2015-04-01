@@ -6,7 +6,7 @@
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <!--#include file="commonlinkedfiles.inc" -->
 
-<!-- <link rel="stylesheet" href="styles/mainstyles_exp.css" media="screen"> <!-- main styles playArea -->
+<!-- <link rel="stylesheet" href="styles/mainstyles_exp.css" media="screen"> --> <!-- main styles playArea -->
 <link rel="stylesheet" href="styles/printstyles.css" media="print"> <!-- print styles -->
 </head>
 

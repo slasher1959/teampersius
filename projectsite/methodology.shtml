@@ -6,7 +6,7 @@
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <!--#include file="commonlinkedfiles.inc" -->
 
-<!-- <link rel="stylesheet" href="styles/mainstyles_exp.css" media="screen"> <!-- main styles playArea -->
+<!-- <link rel="stylesheet" href="styles/mainstyles_exp.css" media="screen"> --> <!-- main styles playArea -->
 <link rel="stylesheet" href="styles/printstyles.css" media="print"> <!-- print styles -->
 </head>
 
@@ -28,47 +28,56 @@
 <div class="six columns addrightborder">
 <ol>
 	<li >Initial Objectives setting</li>
-	<li >Primary purpose (business)</li>
-	<ul><li>information only</li>
-		<li>marketing</li>
-		<li>order-taking</li>
-		<li>social media</li>
-		<li>content management</li>
-	</ul><li >Benchmarking potential examples or solutions to the business purpose</li>
-	<ul><li>customer research<br></li>
-		<li>market needs</li>
-	</ul>
+	<li >Primary purpose (business)
+		<ul>
+			<li>information only</li>
+			<li>marketing</li>
+			<li>order-taking</li>
+			<li>social media</li>
+			<li>content management</li>
+		</ul>
+	</li>
+	<li >Benchmarking potential examples or solutions to the business purpose
+		<ul>
+			<li>customer research<br></li>
+			<li>market needs</li>
+		</ul>
+	</li>
 	<li >Refine needs or requirements<br></li>
-	<li >Concept or high level design<br></li>
-	<ul>
-		<li>content gathering</li>
-		<li>bridge gap between content and technological restrictions</li>
-	</ul>
+	<li >Concept or high level design<br>
+		<ul>
+			<li>content gathering</li>
+			<li>bridge gap between content and technological restrictions</li>
+		</ul>
+	</li>
 </ol>
 
 </div>  <!-- /.six.columns -->
 
 <div class="six columns">
 <ol start="5">
-	<li >Concept or high level design...(Cont'd)<br></li>
-	<ul>
-		<li>mock up proposals</li>
-		<li>draw identity of site</li>
-	</ul>
-	<ul>
-		<li>define look and feel</li>
-		<li>initial site map and navigation</li>
-	</ul>
-		<li >Prototyping</li>
-	<ul>
-		<li>feedback</li>
-	</ul>
-	<li >Development<br></li>
-	<ul>
-		<li>version 1 of site</li>
-		<li>testing</li>
-		<li>constant feedback</li>
-	</ul>
+	<li >Concept or high level design...(Cont'd)<br>
+		<ul>
+			<li>mock up proposals</li>
+			<li>draw identity of site</li>
+		</ul>
+		<ul>
+			<li>define look and feel</li>
+			<li>initial site map and navigation</li>
+		</ul>
+	</li>
+	<li >Prototyping
+		<ul>
+			<li>feedback</li>
+		</ul>
+	</li>
+	<li >Development<br>
+		<ul>
+			<li>version 1 of site</li>
+			<li>testing</li>
+			<li>constant feedback</li>
+		</ul>
+	</li>
 	<li >customer testing</li>
 	<li >deployment</li>
 	<li >maintenance and updates</li>
@@ -114,7 +123,7 @@
 
 <div class="row addtopborder">
 <h3>Overview of the methodology, the steps we followed in completing the project:</h3>
-<img src="images/comp1950_project_siteversion.jpg" accesskey="Project Methodology Overview Diagram">
+<img src="images/comp1950_project_siteversion.jpg" alt="Project Methodology Overview Diagram">
 <div class="twelve columns">
 </div>  <!-- /.twelve.columns -->
 </div>  <!-- /.row -->
