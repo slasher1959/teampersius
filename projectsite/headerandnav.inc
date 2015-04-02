@@ -4,7 +4,7 @@
 
 <div class="two columns" id="headerlogo">
 
-<a href="index.shtml"><img src="images/ed2_Prototype.jpg" alt="A Persius Prototype"></a>
+<a href="index.shtml"><img src="img/ed2_Prototype.jpg" alt="A Persius Prototype"></a>
 
 </div>  <!-- /.three.columns -->
 <div class="ten columns" id="companyintro">
@@ -50,7 +50,7 @@
 		<li><a href="sitemap.shtml">Sitemap</a></li>
 		<li><a href="rationale.shtml">Rationale</a></li>
 	</ul>
-	<a id="validator" href="http://validator.w3.org/check?uri=referer"><img src="images/w3c.png" alt="W3C Validator" title="W3C Validator"></a>
+	<a id="validator" href="http://validator.w3.org/check?uri=referer"><img src="img/w3c.png" alt="W3C Validator" title="W3C Validator"></a>
 </nav>
 </div>  <!-- /.twelve.columns -->
 </div>  <!-- /.row -->

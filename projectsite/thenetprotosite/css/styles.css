@@ -1,4 +1,4 @@
-html, body {
+﻿html, body {
 	background-color: #F9F9F9;
 	padding: 0px;
 	height: 100%;
@@ -114,11 +114,11 @@ nav a:active, div#left_nav a:active {
 	color: #515151;
 }
 
-div#search_bar > form > input[placeholder="Search"] {
+div#search_bar > form > input[placeholder=Search] {
 	margin-left: 13.3333%;
 }
 
-div#search_bar > form > input[type="submit"] {
+div#search_bar > form > input[type=submit] {
 	margin-left: 10px;
 }
 
@@ -135,6 +135,15 @@ div#left_nav li{
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	border-top: 1px solid #515151;
+}
+.discussionform textarea {
+  width:  100%;
+}
+.discussionform#conversationpart > textarea {
+	min-height: 250px;
+}
+#discussionh3 {
+	text-align:center;
 }
 
 /**RESPONSIVE DESIGN STUFF **/

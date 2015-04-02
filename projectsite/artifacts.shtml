@@ -3,11 +3,14 @@
 
 <head>
 <title>Comp1950 - Team Persius Project Site</title>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <!--#include file="commonlinkedfiles.inc" -->
-
+<link href="styles/artifacts.css" rel="stylesheet" />  <!-- specific styles just for this page -->
+<link href="styles/lightbox.css" rel="stylesheet" /> <!-- lightbox style sheet -->
 <!-- <link rel="stylesheet" href="styles/mainstyles_exp.css" media="screen"> --> <!-- main styles playArea -->
-<link rel="stylesheet" href="styles/printstyles.css" media="print"> <!-- print styles -->
+<link rel="stylesheet" href="styles/printstyles.css" media="print" /> <!-- print styles -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/lightbox-2.6.min.js"></script>
 </head>
 
 <body>
@@ -22,19 +25,80 @@
 <main>
 <div class="twelve columns">
 
-<h2>Our projects outputs and/or artifacts are shown from this page</h2>
-<p>Lorem ipsum dolor sit amet, vestibulum ante facilis, nec in ipsum eu velit sit. Neque ipsum ultricies praesent dictum et, eu adipiscing arcu, nisl wisi arcu, ut vel integer massa tortor et, ut sem ut nunc bibendum orci sodales. Ipsum malesuada magna in ornare arcu, sed molestie elit imperdiet commodo ligula. Laoreet ullamcorper atque porta arcu, vel consectetuer aptent, ridiculus eget gravida, et tincidunt, in pretium. Et scelerisque pulvinar habitasse. In nunc donec arcu, quam mauris, porta imperdiet non id natoque arcu, ante nulla suspendisse, sapien eget a dolor suspendisse.
-
-Quis arcu integer vivamus vel rutrum erat, tortor magna feugiat vitae, amet phasellus, convallis vulputate orci libero. Eget wisi, dapibus lacus sollicitudin diam. Praesent pede vestibulum, suscipit vel pellentesque wisi amet. Mattis duis sed convallis, in in est rutrum scelerisque bibendum, suspendisse lectus amet sociis vivamus cum doloremque. Proin pellentesque pharetra mauris sem nec, cras at quis quisque, in et.
-
-Dignissim aenean mauris sagittis posuere sed semper, commodo mauris quam quam pretium vestibulum, volutpat tortor arcu ligula. Blandit justo interdum aut eros risus nascetur, ipsum orci non quisque diam tortor vestibulum, nulla sed turpis vestibulum, proin ac eaque. Tellus porttitor vitae, purus tellus in sit est rhoncus ipsum. Amet vel donec. Cras arcu, mauris et, vitae est congue neque a elit nulla, vestibulum mollis mauris imperdiet, mattis non.
-
-Mauris tortor nibh volutpat integer integer mattis, in nec arcu, integer turpis nibh, nibh ridiculus consectetuer, pede justo. Dis aenean maecenas curabitur, cursus in vitae nulla maecenas neque, eget mauris fermentum sed. Ultrices vel, euismod aenean pede parturient, felis ut ut lobortis cursus nec, odio ullamcorper pede, aenean mi sagittis elit quam elit ac. Fusce laoreet scelerisque donec, tortor semper nunc convallis elit, in egestas quaerat nec ut, sodales consequuntur, nunc sit sit vel. Ut tortor natoque pretium interdum tellus dapibus. Ante pede, sed sed mi placerat ultricies, arcu in iaculis facilisis elementum fusce magna, quis in turpis integer imperdiet.
-</p>
+<h2>Project Outputs / Artifacts</h2>
 
 </div>  <!-- /.twelve.columns -->
 </main>
 </div>  <!-- /.row -->
+
+<section id="artifacts">
+<div class="row addtopborder">
+<div class="three columns">
+
+<a class="example-image-link" href="img/mockup_homescreen.png" data-lightbox="wireframe-1" title="Home Page - Wireframe">
+						<img alt="Home Page - Wireframe" src="img/mockup_homescreen.png"></a>
+</div> <!-- /.three.columns -->
+<div class="nine columns">
+<p>This is a wireframe of the proposed, redesigned, home page.   A mocked up working copy of this page is shown on the protosite.  In our wireframe mockups we the instructor feedback page is shown as a section at the bottom of the home page.    However, in our prototsite, we have shown the instructor feedback section only in the news page.  </p>
+</div> <!-- /.nine.columns -->
+</div> <!-- /.row -->
+
+<div class="row addtopborder">
+<div class="three columns">
+<a class="example-image-link" href="img/mockup_weeklylecturepgs.png" data-lightbox="wireframe-2" title="Weekly Lecture Page - Wireframe">
+						<img alt="Weekly Lecture Page - Wireframe" src="img/mockup_weeklylecturepgs.png"></a>
+</div> <!-- /.three.columns -->
+<div class="nine columns">
+<p>This is a wireframe of the proposed weekly lecture pages.   A mocked up working copy of this page is shown on the protosite.</p>
+</div> <!-- /.nine.columns -->
+</div>  <!-- /.row -->
+
+<div class="row addtopborder">
+<div class="three columns">
+<a class="example-image-link" href="img/mockup_discussion.png" data-lightbox="wireframe-3" title="Discussion Page - Wireframe">
+						<img alt="Discussion Page - Wireframe" src="img/mockup_discussion.png"></a>
+</div> <!-- /.three.columns -->
+<div class="nine columns">
+<p>This is a wireframe of the proposed Discussion Page.   A mocked up working copy of this page is shown on the protosite.</p>
+</div> <!-- /.nine.columns -->
+</div>  <!-- /.row -->
+
+<div class="row addtopborder">
+<div class="three columns">
+<a class="example-image-link" href="img/mockup_news.png" data-lightbox="wireframe-4" title="News Page - Wireframe">
+						<img alt="News Page - Wireframe" src="img/mockup_news.png"></a>
+</div> <!-- /.three.columns -->
+<div class="nine columns">
+<p>This is a wireframe of the proposed News Page.   A mocked up working copy of this page is shown on the protosite.</p>
+</div> <!-- /.nine.columns -->
+</div>  <!-- /.row -->
+
+
+<div class="row addtopborder">
+<div class="three columns">
+<a class="example-image-link" href="img/mockup_calendardate.png" data-lightbox="wireframe-5" title="Calendar Page - Wireframe">
+						<img alt="Calendar Page - Wireframe" src="img/mockup_calendardate.png"></a>
+</div> <!-- /.three.columns -->
+<div class="nine columns">
+<p>This is a wireframe of the proposed Calendar Page.   This page has not been included on our protosite.  This page would be used for keeping track of and announcing any important dates or event for an offering of the COMP 1950 that is currently in progress.   This page would neeed to be updated before the start of every class offering and could also be updated throughout the running of a course offering as any additional updates or new dates are identified that are important for the students to know about.</p>
+</div> <!-- /.nine.columns -->
+</div>  <!-- /.row -->
+
+<div class="row addtopborder">
+<div class="three columns">
+<a class="example-image-link" href="img/mockup_instructorfeedback.png" data-lightbox="wireframe-6" title="Instructor Feedback Page Section - Wireframe">
+						<img alt="Instructor Feedback Page Section- Wireframe" src="img/mockup_instructorfeedback.png"></a>
+</div> <!-- /.three.columns -->
+<div class="nine columns">
+<p>This is a wireframe of the proposed Instructor Feedback Section.   This section is shown in our protosite as part of the News Page.   This section can be added to any page in the new COMP1950 site, to the bottom of a page.  We beleive it is not necessary to have this section on every page and believe it is most relevant to have it on the News page, and perhaps the Weekly Lecture page, when the redesigned website is deployed.</p>
+<p>This section is hidden by default, and is opened and closed by clicking on the CONTACT link which would be included in site pages that implement this section.</p>
+</div> <!-- /.nine.columns -->
+</div>  <!-- /.row -->
+
+</section> <!-- /#artifacts -->
+
+
+
 
 <!--#include file="footer.shtml" -->
 

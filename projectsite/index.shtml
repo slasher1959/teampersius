@@ -29,7 +29,7 @@
 <p>This website is the result of completing that final project assignment.</p>
 </div> <!-- /.seven.columns -->
 <div class="five columns">
-<figure><img alt="Alistair Calder" src="images/alistair_calder.jpg" >
+<figure><img alt="Alistair Calder" src="img/alistair_calder.jpg" >
 <figcaption>This is Alistair on the first night of our course</figcaption>
 </figure>
 </div>  <!-- /.five.columns -->
@@ -39,7 +39,7 @@
 <div class="row addtopborder">
 <div class="four columns"><p>&nbsp;</p></div> <!-- /.four.columns just used for spacing_layout -->
 <div class="four columns">
-	<figure><img alt="Alistair Calder" src="images/alistair_calder_later.jpg" >
+	<figure><img alt="Alistair Calder" src="img/alistair_calder_later.jpg" >
 	</figure>
 </div> <!-- /.four.columns -->
 <div class="four columns"><p>&nbsp;</p></div> <!-- /.four.columns just used for spacing_layout -->

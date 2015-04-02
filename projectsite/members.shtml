@@ -48,7 +48,7 @@ $(document).ready(function(){
 <div class="row membersrow">
 <div class="four columns">
 <figure>
-<img id="eddieimage" alt="Eduardo &quot;Eddie&quot; Santos" src="images/about_me_eddie.jpg"><figcaption>Eddie Santos</figcaption></figure>
+<img id="eddieimage" alt="Eduardo &quot;Eddie&quot; Santos" src="img/about_me_eddie.jpg"><figcaption>Eddie Santos</figcaption></figure>
 </div> <!-- /.four.columns -->
 <div class="eight columns">
 <p>Eddie worked as a software QA analyst for four years. After taking some courses at BCIT, Eddie transitioned into software development, and is currently working as a Java developer for a market data provider</p>
@@ -81,7 +81,7 @@ $(document).ready(function(){
 
 <div class="row  membersrow">
 <div class="four columns">
-<figure><img id="rayimage" alt="Ray Sit" src="images/profile_ray.jpg"><figcaption>Ray Sit</figcaption></figure>
+<figure><img id="rayimage" alt="Ray Sit" src="img/profile_ray.jpg"><figcaption>Ray Sit</figcaption></figure>
 </div> <!-- /.four.columns -->
 <div class="eight columns">
 <p>Ray has a strong Software Development background. Currently, Ray is writing business applications for iOS (iPhone/iPad) but has also dabbled in Android development from time to time.  Throughout Ray's career, he has migrated toward learning more about Web Development and has joined Team Persius in order to allow his Web Development passion to be fully challenged</p>
@@ -114,7 +114,7 @@ Ray has recent experience with HTML layout integration into e-mail messages.  Ra
 <div class="row  membersrow">
 <div class="four columns">
 <figure>
-<img id="johnimage" alt="John Elash" src="images/johnelash.jpg"><figcaption>John Elash</figcaption></figure>
+<img id="johnimage" alt="John Elash" src="img/johnelash.jpg"><figcaption>John Elash</figcaption></figure>
 </div>  <!-- /.four.columns -->
 <div class="eight columns">
 <p>John is currently employed at Fraser Health Authority as an Information Management Project Manager.   He is part of the IM Project Management Office and is a certified Project Management Professional.  He is currently managing the Windows XP to Windows 7 upgrade and responsible for the deployment of approximately 13,100 computers for FHA.  Prior to that, John worked with TELUS Corporation for just over 26 years and was a project manager or manager for about 15 of those years.  He brings over 25 years of information technology experience in various technical and management roles, to Team Persius</p>
@@ -156,7 +156,7 @@ Ray has recent experience with HTML layout integration into e-mail messages.  Ra
 <p>(<span>NOTE:</span> an ADOBE Reader Plug-in is needed to view this file directly in your browser)</p>
 </div> <!-- /.eight.columns -->
 <div class="four columns">
-<a href="documents/comp1950finalprojectplan.pdf"><img id="completeprojplan" alt="complete project plan" src="images/comp1950mainbuildplansiteversionthumb.jpg"></a>
+<a href="documents/comp1950finalprojectplan.pdf"><img id="completeprojplan" alt="complete project plan" src="img/comp1950mainbuildplansiteversionthumb.jpg"></a>
 </div>  <!-- /.four.columns -->
 
 </div> <!-- /.row -->
@@ -166,7 +166,7 @@ Ray has recent experience with HTML layout integration into e-mail messages.  Ra
 <div class="twelve columns">
 <h3>Team Member's Key Assignments</h3>
 <p>
-<img id="projectassignments" alt="project assignments" src="images/comp1950mainbuildplansiteversion.jpg"></p>
+<img id="projectassignments" alt="project assignments" src="img/comp1950mainbuildplansiteversion.jpg"></p>
 </div>  <!-- /.twelve.columns -->
 
 </div> <!-- /.row -->

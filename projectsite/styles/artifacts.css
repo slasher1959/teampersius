@@ -1,0 +1,6 @@
+﻿#artifacts .three.columns, #artifacts .nine.columns {
+	margin-top: 10px;
+}
+#artifacts .three.columns img {
+    width: 100%;
+}

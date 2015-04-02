@@ -2,7 +2,7 @@
   height: 135px;
   position: absolute;
   width: 100%;
-  background-image: url('../images/background_grey.png');
+  background-image: url('../img/background_grey.png');
 }
 header section .two.columns img {
   max-width: 70%;
@@ -66,6 +66,12 @@ a#validator {
 a#validator img {
 	width: 40px;
 }
+a {
+  color:  #666666;
+}
+a:hover {
+  color:  #808080;
+}
 h2, h3 {
   text-align:  center;
 }
@@ -84,7 +90,7 @@ footer .twelve.columns p {
   min-height: 25px;
   position: absolute;
   width: 100%;
-  background-image: url('../images/background_grey.png');
+  background-image: url('../img/background_grey.png');
 }
 footer .twelve.columns p {
   margin-bottom:  0px;

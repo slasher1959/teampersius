@@ -19,21 +19,25 @@
 	
 	<div class="row">
 	<div class="twelve columns">
-		<h3>Week 1 Discussion Page</h3>
+		<h3 id="discussionh3"><b>Week 1 Discussion Page</b></h3>
 	</div>	<!-- /.twelve.columns -->
 	</div> <!-- /.row -->	
 	
 	<div class="row">
 	<div class="twelve columns">
-	  <form method="post">
-		<textarea cols="80" name="TextArea1" rows="40"></textarea>
+	  <form method="post" class="discussionform" id="conversationpart">
+		<textarea cols="80" name="TextArea1" rows="40" readonly="readonly"><b>Instructor:</b>&nbsp;Lorem ipsum dolor sit amet, nec postea luptatum expetenda ea, te per odio nostro theophrastus. Munere soluta contentiones in his, usu solum bonorum interesset cu, omnes torquatos adipiscing sea an. Eos ne dicant laboramus efficiendi. Ad eam omittam scripserit, mucius inciderint ea pri.<br />
+<b>Student-1:</b>&nbsp;Lorem ipsum REPLY blah blah blah <br />
+<b>Student-2:</b>&nbsp;Lorem ipsum dolor sit amet, nec postea luptatum expetenda ea, te per odio nostro theophrastus. Munere soluta contentiones in his, usu solum bonorum interesset cu, omnes torquatos adipiscing sea an. Eos ne dicant laboramus efficiendi. Ad eam omittam scripserit, mucius inciderint ea pri. <br />
+<b>Instructor:</b>&nbsp;IN RESPONSE Blah Blah a luptatum expetenda ea, te per odio nostro theophrastus. Munere soluta contentiones in his, usu solum bonorum interesset cu, omnes torquatos adipiscing sea an. Eos ne dicant laboramus efficiendi. Ad eam omittam scripserit, mucius inciderint ea pri. <br />
+		</textarea>
 		</form>
 	</div> 	<!-- /.twelve columns -->
 	</div>  <!-- /.row -->
 	
 	<div class="row">
 	<div class="ten columns">
-		<form method="post">
+		<form method="post" class="discussionform">
 		<textarea cols="80" name="TextArea1" rows="5"></textarea>
 		</form>
 	</div> 	<!-- /.ten.columns -->
