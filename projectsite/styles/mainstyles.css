@@ -61,7 +61,7 @@ nav ul li:hover ul {
 a#validator {
   position: absolute;
   right: 0px;
-  top: 1px;
+  top: 3px;
 }
 a#validator img {
 	width: 40px;

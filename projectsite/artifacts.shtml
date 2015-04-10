@@ -95,6 +95,17 @@
 </div> <!-- /.nine.columns -->
 </div>  <!-- /.row -->
 
+
+<div class="row addtopborder">
+<div class="three columns">
+<a href="documents/wireframes.pdf"><img id="wireframedrawings" alt="wire frame drawings" src="img/pdflogoicon.jpg"></a>
+</div> <!-- /.three.columns -->
+<div class="nine columns">
+<p>Click on the PDF Logo to open or download a .pdf file containing all the wireframe drawings.  NOTE: you will need a plug-in to view the PDF file directly in your browser</p>
+</div> <!-- /.nine.columns -->
+</div>  <!-- /.row -->
+
+
 </section> <!-- /#artifacts -->
 
 
